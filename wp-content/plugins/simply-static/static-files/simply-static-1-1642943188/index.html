@@ -103,8 +103,8 @@
 
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
 <link rel="dns-prefetch" href="//s.w.org">
-<link rel="alternate" type="application/rss+xml" title="Daily Topics &raquo; Feed" href="https://dailytopic.online/feed/">
-<link rel="alternate" type="application/rss+xml" title="Daily Topics &raquo; Comments Feed" href="https://dailytopic.online/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Daily Topics &raquo; Feed" href="https://dailytopic.online/?feed=rss2">
+<link rel="alternate" type="application/rss+xml" title="Daily Topics &raquo; Comments Feed" href="https://dailytopic.online/?feed=comments-rss2">
 		<script type="text/javascript">
 			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/dailytopic.online\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.3"}};
 			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
@@ -141,14 +141,14 @@ img.emoji {
 <script type="text/javascript" src="https://dailytopic.online/wp-content/themes/newsup/js/jquery.smartmenus.bootstrap.js?ver=5.8.3" id="bootstrap-smartmenus-js-js"></script>
 <script type="text/javascript" src="https://dailytopic.online/wp-content/themes/newsup/js/jquery.marquee.js?ver=5.8.3" id="newsup-marquee-js-js"></script>
 <script type="text/javascript" src="https://dailytopic.online/wp-content/themes/newsup/js/main.js?ver=5.8.3" id="newsup-main-js-js"></script>
-<link rel="https://api.w.org/" href="https://dailytopic.online/wp-json/">
-<link rel="alternate" type="application/json" href="https://dailytopic.online/wp-json/wp/v2/pages/50">
+<link rel="https://api.w.org/" href="https://dailytopic.online/index.php?rest_route=/">
+<link rel="alternate" type="application/json" href="https://dailytopic.online/index.php?rest_route=/wp/v2/pages/50">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://dailytopic.online/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://dailytopic.online/wp-includes/wlwmanifest.xml"> 
 <meta name="generator" content="WordPress 5.8.3">
 <link rel="shortlink" href="https://dailytopic.online/">
-<link rel="alternate" type="application/json+oembed" href="https://dailytopic.online/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdailytopic.online%2F">
-<link rel="alternate" type="text/xml+oembed" href="https://dailytopic.online/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdailytopic.online%2F&#038;format=xml">
+<link rel="alternate" type="application/json+oembed" href="https://dailytopic.online/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=https%3A%2F%2Fdailytopic.online%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://dailytopic.online/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=https%3A%2F%2Fdailytopic.online%2F&#038;format=xml">
 <style type="text/css" id="custom-background-css">.wrapper { background-color: #eee; }</style>
     <style type="text/css">.site-title,
         .site-description {
@@ -252,11 +252,11 @@ Skip to content</a>
                   	<div class="d-md-block">
                   <ul id="menu-primary" class="nav navbar-nav mr-auto">
 <li class="active home"><a class="homebtn" href="https://dailytopic.online"><span class="fas fa-home"></span></a></li>
-<li id="menu-item-114" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-114"><a class="nav-link" title="Tech" href="https://dailytopic.online/category/tech/">Tech</a></li>
-<li id="menu-item-115" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-115"><a class="nav-link" title="Sports" href="https://dailytopic.online/category/sports/">Sports</a></li>
-<li id="menu-item-113" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-113"><a class="nav-link" title="World" href="https://dailytopic.online/category/world/">World</a></li>
-<li id="menu-item-110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110"><a class="nav-link" title="Contact" href="https://dailytopic.online/contact/">Contact</a></li>
-<li id="menu-item-109" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-109"><a class="nav-link" title="World" href="https://dailytopic.online/category/world/">World</a></li>
+<li id="menu-item-114" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-114"><a class="nav-link" title="Tech" href="https://dailytopic.online/?cat=8">Tech</a></li>
+<li id="menu-item-115" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-115"><a class="nav-link" title="Sports" href="https://dailytopic.online/?cat=7">Sports</a></li>
+<li id="menu-item-113" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-113"><a class="nav-link" title="World" href="https://dailytopic.online/?cat=10">World</a></li>
+<li id="menu-item-110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110"><a class="nav-link" title="Contact" href="https://dailytopic.online/?page_id=70">Contact</a></li>
+<li id="menu-item-109" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-109"><a class="nav-link" title="World" href="https://dailytopic.online/?cat=10">World</a></li>
 </ul>        				</div>		
               		</div>
           </div>
@@ -274,19 +274,19 @@ Skip to content</a>
                         </div>
                          
                         <div class="mg-latest-news-slider marquee">
-                                                                                        <a href="https://dailytopic.online/2022/01/22/this-is-how-the-abu-dhabi-dubai-etihad-rails-train-will-appear-2/">
+                                                                                        <a href="https://dailytopic.online/?p=300">
                                         <span>This is how the Abu Dhabi-Dubai Etihad Rails train will appear.</span>
                                      </a>
-                                                                        <a href="https://dailytopic.online/2022/01/22/major-barriers-are-broken-when-pig-kidneys-implanted-in-a-brain-dead-man-produce-urine-for-74-hours/">
+                                                                        <a href="https://dailytopic.online/?p=274">
                                         <span>&#8216;Major barriers&#8217; are broken when pig kidneys implanted in a brain-dead man produce urine for 74 hours.</span>
                                      </a>
-                                                                        <a href="https://dailytopic.online/2022/01/22/mysterious-sand-sculptures-have-appeared-near-a-lake-in-the-united-states-how-can-you-find-out/">
+                                                                        <a href="https://dailytopic.online/?p=273">
                                         <span>Mysterious sand sculptures have appeared near a lake in the United States. How can you find out?</span>
                                      </a>
-                                                                        <a href="https://dailytopic.online/2022/01/22/reliance-jio-is-making-the-most-money-from-its-subscribers-than-it-has-ever-made/">
+                                                                        <a href="https://dailytopic.online/?p=272">
                                         <span>Reliance Jio is making the most money from its subscribers than it has ever made.</span>
                                      </a>
-                                                                        <a href="https://dailytopic.online/2022/01/22/watch-a-comedy-of-errors-ensues-between-rahul-and-pant-before-keshav-maharaj-blows-a-run-out-opportunity/">
+                                                                        <a href="https://dailytopic.online/?p=275">
                                         <span>WATCH: A comedy of errors ensues between Rahul and Pant before Keshav Maharaj blows a run-out opportunity.</span>
                                      </a>
                                                             </div>
@@ -303,22 +303,22 @@ Skip to content</a>
                                          <div class="item">
                 <div class="mg-blog-post lg back-img" style="background-image: url('https://dailytopic.online/wp-content/uploads/2022/01/AAT1AoF.png');">
 
-                <a class="link-div" href="https://dailytopic.online/2022/01/22/this-is-how-the-abu-dhabi-dubai-etihad-rails-train-will-appear-2/"> </a>
+                <a class="link-div" href="https://dailytopic.online/?p=300"> </a>
 
                 <article class="bottom">
                         <span class="post-form"><i class="fas fa-camera"></i></span>
-                        <div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/science/" alt="View all posts in Science"> 
+                        <div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=6" alt="View all posts in Science"> 
                                  Science
-                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/category/tech/" alt="View all posts in Tech"> 
+                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=8" alt="View all posts in Tech"> 
                                  Tech
                              </a> </div>
-                        <h4 class="title"> <a href="https://dailytopic.online/2022/01/22/this-is-how-the-abu-dhabi-dubai-etihad-rails-train-will-appear-2/">This is how the Abu Dhabi-Dubai Etihad Rails train will appear.</a>
+                        <h4 class="title"> <a href="https://dailytopic.online/?p=300">This is how the Abu Dhabi-Dubai Etihad Rails train will appear.</a>
 </h4>
                             <div class="mg-blog-meta">
         <span class="mg-blog-date"><i class="fas fa-clock"></i>
-         <a href="https://dailytopic.online/2022/01/">
+         <a href="https://dailytopic.online/?m=202201">
          Jan 22, 2022</a></span>
-         <a class="auth" href="https://dailytopic.online/author/admin/"><i class="fas fa-user-circle"></i> 
+         <a class="auth" href="https://dailytopic.online/?author=1"><i class="fas fa-user-circle"></i> 
         Admin</a>
          
     </div>
@@ -328,20 +328,20 @@ Skip to content</a>
              <div class="item">
                 <div class="mg-blog-post lg back-img" style="background-image: url('https://dailytopic.online/wp-content/uploads/2022/01/AAT0yFm.png');">
 
-                <a class="link-div" href="https://dailytopic.online/2022/01/22/major-barriers-are-broken-when-pig-kidneys-implanted-in-a-brain-dead-man-produce-urine-for-74-hours/"> </a>
+                <a class="link-div" href="https://dailytopic.online/?p=274"> </a>
 
                 <article class="bottom">
                         <span class="post-form"><i class="fas fa-camera"></i></span>
-                        <div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/health/" alt="View all posts in HEALTH"> 
+                        <div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=21" alt="View all posts in HEALTH"> 
                                  HEALTH
                              </a> </div>
-                        <h4 class="title"> <a href="https://dailytopic.online/2022/01/22/major-barriers-are-broken-when-pig-kidneys-implanted-in-a-brain-dead-man-produce-urine-for-74-hours/">&#8216;Major barriers&#8217; are broken when pig kidneys implanted in a brain-dead man produce urine for 74 hours.</a>
+                        <h4 class="title"> <a href="https://dailytopic.online/?p=274">&#8216;Major barriers&#8217; are broken when pig kidneys implanted in a brain-dead man produce urine for 74 hours.</a>
 </h4>
                             <div class="mg-blog-meta">
         <span class="mg-blog-date"><i class="fas fa-clock"></i>
-         <a href="https://dailytopic.online/2022/01/">
+         <a href="https://dailytopic.online/?m=202201">
          Jan 22, 2022</a></span>
-         <a class="auth" href="https://dailytopic.online/author/admin/"><i class="fas fa-user-circle"></i> 
+         <a class="auth" href="https://dailytopic.online/?author=1"><i class="fas fa-user-circle"></i> 
         Admin</a>
          
     </div>
@@ -351,20 +351,20 @@ Skip to content</a>
              <div class="item">
                 <div class="mg-blog-post lg back-img" style="background-image: url('https://dailytopic.online/wp-content/uploads/2022/01/AAT0DzJ.png');">
 
-                <a class="link-div" href="https://dailytopic.online/2022/01/22/mysterious-sand-sculptures-have-appeared-near-a-lake-in-the-united-states-how-can-you-find-out/"> </a>
+                <a class="link-div" href="https://dailytopic.online/?p=273"> </a>
 
                 <article class="bottom">
                         <span class="post-form"><i class="fas fa-camera"></i></span>
-                        <div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/world/" alt="View all posts in World"> 
+                        <div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=10" alt="View all posts in World"> 
                                  World
                              </a> </div>
-                        <h4 class="title"> <a href="https://dailytopic.online/2022/01/22/mysterious-sand-sculptures-have-appeared-near-a-lake-in-the-united-states-how-can-you-find-out/">Mysterious sand sculptures have appeared near a lake in the United States. How can you find out?</a>
+                        <h4 class="title"> <a href="https://dailytopic.online/?p=273">Mysterious sand sculptures have appeared near a lake in the United States. How can you find out?</a>
 </h4>
                             <div class="mg-blog-meta">
         <span class="mg-blog-date"><i class="fas fa-clock"></i>
-         <a href="https://dailytopic.online/2022/01/">
+         <a href="https://dailytopic.online/?m=202201">
          Jan 22, 2022</a></span>
-         <a class="auth" href="https://dailytopic.online/author/admin/"><i class="fas fa-user-circle"></i> 
+         <a class="auth" href="https://dailytopic.online/?author=1"><i class="fas fa-user-circle"></i> 
         Admin</a>
          
     </div>
@@ -374,20 +374,20 @@ Skip to content</a>
              <div class="item">
                 <div class="mg-blog-post lg back-img" style="background-image: url('https://dailytopic.online/wp-content/uploads/2022/01/AAT0Ceg.png');">
 
-                <a class="link-div" href="https://dailytopic.online/2022/01/22/reliance-jio-is-making-the-most-money-from-its-subscribers-than-it-has-ever-made/"> </a>
+                <a class="link-div" href="https://dailytopic.online/?p=272"> </a>
 
                 <article class="bottom">
                         <span class="post-form"><i class="fas fa-camera"></i></span>
-                        <div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/tech/" alt="View all posts in Tech"> 
+                        <div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=8" alt="View all posts in Tech"> 
                                  Tech
                              </a> </div>
-                        <h4 class="title"> <a href="https://dailytopic.online/2022/01/22/reliance-jio-is-making-the-most-money-from-its-subscribers-than-it-has-ever-made/">Reliance Jio is making the most money from its subscribers than it has ever made.</a>
+                        <h4 class="title"> <a href="https://dailytopic.online/?p=272">Reliance Jio is making the most money from its subscribers than it has ever made.</a>
 </h4>
                             <div class="mg-blog-meta">
         <span class="mg-blog-date"><i class="fas fa-clock"></i>
-         <a href="https://dailytopic.online/2022/01/">
+         <a href="https://dailytopic.online/?m=202201">
          Jan 22, 2022</a></span>
-         <a class="auth" href="https://dailytopic.online/author/admin/"><i class="fas fa-user-circle"></i> 
+         <a class="auth" href="https://dailytopic.online/?author=1"><i class="fas fa-user-circle"></i> 
         Admin</a>
          
     </div>
@@ -397,20 +397,20 @@ Skip to content</a>
              <div class="item">
                 <div class="mg-blog-post lg back-img" style="background-image: url('https://dailytopic.online/wp-content/uploads/2022/01/AAT0tvr.png');">
 
-                <a class="link-div" href="https://dailytopic.online/2022/01/22/watch-a-comedy-of-errors-ensues-between-rahul-and-pant-before-keshav-maharaj-blows-a-run-out-opportunity/"> </a>
+                <a class="link-div" href="https://dailytopic.online/?p=275"> </a>
 
                 <article class="bottom">
                         <span class="post-form"><i class="fas fa-camera"></i></span>
-                        <div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/sports/" alt="View all posts in Sports"> 
+                        <div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=7" alt="View all posts in Sports"> 
                                  Sports
                              </a> </div>
-                        <h4 class="title"> <a href="https://dailytopic.online/2022/01/22/watch-a-comedy-of-errors-ensues-between-rahul-and-pant-before-keshav-maharaj-blows-a-run-out-opportunity/">WATCH: A comedy of errors ensues between Rahul and Pant before Keshav Maharaj blows a run-out opportunity.</a>
+                        <h4 class="title"> <a href="https://dailytopic.online/?p=275">WATCH: A comedy of errors ensues between Rahul and Pant before Keshav Maharaj blows a run-out opportunity.</a>
 </h4>
                             <div class="mg-blog-meta">
         <span class="mg-blog-date"><i class="fas fa-clock"></i>
-         <a href="https://dailytopic.online/2022/01/">
+         <a href="https://dailytopic.online/?m=202201">
          Jan 22, 2022</a></span>
-         <a class="auth" href="https://dailytopic.online/author/admin/"><i class="fas fa-user-circle"></i> 
+         <a class="auth" href="https://dailytopic.online/?author=1"><i class="fas fa-user-circle"></i> 
         Admin</a>
          
     </div>
@@ -444,20 +444,20 @@ Skip to content</a>
                         <div class="mg-posts-sec mg-posts-modul-2"><div class="mg-posts-sec-inner row"><div class="small-list-post col-lg-12"><ul>                
                   <li class="small-post clearfix">
                                                                            <div class="img-small-post">
-                                <a href="https://dailytopic.online/2022/01/22/this-is-how-the-abu-dhabi-dubai-etihad-rails-train-will-appear-2/">
+                                <a href="https://dailytopic.online/?p=300">
                                                                     <img src="https://dailytopic.online/wp-content/uploads/2022/01/AAT1AoF.png" alt="This is how the Abu Dhabi-Dubai Etihad Rails train will appear.">
                                                                 </a>
                             </div>
                                                 <div class="small-post-content">
                                 <div class="mg-blog-category">
-                                   <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/science/" alt="View all posts in Science"> 
+                                   <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=6" alt="View all posts in Science"> 
                                  Science
-                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/category/tech/" alt="View all posts in Tech"> 
+                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=8" alt="View all posts in Tech"> 
                                  Tech
                              </a>                                </div>
                                  <div class="title_small_post">
                                     
-                                    <a href="https://dailytopic.online/2022/01/22/this-is-how-the-abu-dhabi-dubai-etihad-rails-train-will-appear-2/">
+                                    <a href="https://dailytopic.online/?p=300">
                                         <h5>
                                         This is how the Abu Dhabi-Dubai Etihad Rails train will appear.                                        </h5>
                                     </a>
@@ -468,18 +468,18 @@ Skip to content</a>
                             
                   <li class="small-post clearfix">
                                                                            <div class="img-small-post">
-                                <a href="https://dailytopic.online/2022/01/22/major-barriers-are-broken-when-pig-kidneys-implanted-in-a-brain-dead-man-produce-urine-for-74-hours/">
+                                <a href="https://dailytopic.online/?p=274">
                                                                     <img src="https://dailytopic.online/wp-content/uploads/2022/01/AAT0yFm.png" alt="&#8216;Major barriers&#8217; are broken when pig kidneys implanted in a brain-dead man produce urine for 74 hours.">
                                                                 </a>
                             </div>
                                                 <div class="small-post-content">
                                 <div class="mg-blog-category">
-                                   <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/health/" alt="View all posts in HEALTH"> 
+                                   <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=21" alt="View all posts in HEALTH"> 
                                  HEALTH
                              </a>                                </div>
                                  <div class="title_small_post">
                                     
-                                    <a href="https://dailytopic.online/2022/01/22/major-barriers-are-broken-when-pig-kidneys-implanted-in-a-brain-dead-man-produce-urine-for-74-hours/">
+                                    <a href="https://dailytopic.online/?p=274">
                                         <h5>
                                         &#8216;Major barriers&#8217; are broken when pig kidneys implanted in a brain-dead man produce urine for 74 hours.                                        </h5>
                                     </a>
@@ -490,18 +490,18 @@ Skip to content</a>
                             
                   <li class="small-post clearfix">
                                                                            <div class="img-small-post">
-                                <a href="https://dailytopic.online/2022/01/22/mysterious-sand-sculptures-have-appeared-near-a-lake-in-the-united-states-how-can-you-find-out/">
+                                <a href="https://dailytopic.online/?p=273">
                                                                     <img src="https://dailytopic.online/wp-content/uploads/2022/01/AAT0DzJ.png" alt="Mysterious sand sculptures have appeared near a lake in the United States. How can you find out?">
                                                                 </a>
                             </div>
                                                 <div class="small-post-content">
                                 <div class="mg-blog-category">
-                                   <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/world/" alt="View all posts in World"> 
+                                   <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=10" alt="View all posts in World"> 
                                  World
                              </a>                                </div>
                                  <div class="title_small_post">
                                     
-                                    <a href="https://dailytopic.online/2022/01/22/mysterious-sand-sculptures-have-appeared-near-a-lake-in-the-united-states-how-can-you-find-out/">
+                                    <a href="https://dailytopic.online/?p=273">
                                         <h5>
                                         Mysterious sand sculptures have appeared near a lake in the United States. How can you find out?                                        </h5>
                                     </a>
@@ -512,18 +512,18 @@ Skip to content</a>
                             
                   <li class="small-post clearfix">
                                                                            <div class="img-small-post">
-                                <a href="https://dailytopic.online/2022/01/22/reliance-jio-is-making-the-most-money-from-its-subscribers-than-it-has-ever-made/">
+                                <a href="https://dailytopic.online/?p=272">
                                                                     <img src="https://dailytopic.online/wp-content/uploads/2022/01/AAT0Ceg.png" alt="Reliance Jio is making the most money from its subscribers than it has ever made.">
                                                                 </a>
                             </div>
                                                 <div class="small-post-content">
                                 <div class="mg-blog-category">
-                                   <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/tech/" alt="View all posts in Tech"> 
+                                   <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=8" alt="View all posts in Tech"> 
                                  Tech
                              </a>                                </div>
                                  <div class="title_small_post">
                                     
-                                    <a href="https://dailytopic.online/2022/01/22/reliance-jio-is-making-the-most-money-from-its-subscribers-than-it-has-ever-made/">
+                                    <a href="https://dailytopic.online/?p=272">
                                         <h5>
                                         Reliance Jio is making the most money from its subscribers than it has ever made.                                        </h5>
                                     </a>
@@ -538,20 +538,20 @@ Skip to content</a>
                         <div class="mg-posts-sec mg-posts-modul-2"><div class="mg-posts-sec-inner row"><div class="small-list-post col-lg-12"><ul>                
                   <li class="small-post clearfix">
                                                                            <div class="img-small-post">
-                                <a href="https://dailytopic.online/2022/01/22/this-is-how-the-abu-dhabi-dubai-etihad-rails-train-will-appear-2/">
+                                <a href="https://dailytopic.online/?p=300">
                                                                     <img src="https://dailytopic.online/wp-content/uploads/2022/01/AAT1AoF.png" alt="This is how the Abu Dhabi-Dubai Etihad Rails train will appear.">
                                                                 </a>
                             </div>
                                                 <div class="small-post-content">
                                 <div class="mg-blog-category">
-                                   <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/science/" alt="View all posts in Science"> 
+                                   <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=6" alt="View all posts in Science"> 
                                  Science
-                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/category/tech/" alt="View all posts in Tech"> 
+                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=8" alt="View all posts in Tech"> 
                                  Tech
                              </a>                                </div>
                                  <div class="title_small_post">
                                     
-                                    <a href="https://dailytopic.online/2022/01/22/this-is-how-the-abu-dhabi-dubai-etihad-rails-train-will-appear-2/">
+                                    <a href="https://dailytopic.online/?p=300">
                                         <h5>
                                         This is how the Abu Dhabi-Dubai Etihad Rails train will appear.                                        </h5>
                                     </a>
@@ -562,18 +562,18 @@ Skip to content</a>
                             
                   <li class="small-post clearfix">
                                                                            <div class="img-small-post">
-                                <a href="https://dailytopic.online/2020/01/12/events-held-in-paris-beautifull-and-amazing-things/">
+                                <a href="https://dailytopic.online/?p=22">
                                                                     <img src="https://dailytopic.online/wp-content/uploads/2020/01/blog12.jpg" alt="Events Held In Paris Beautifull And Amazing Things">
                                                                 </a>
                             </div>
                                                 <div class="small-post-content">
                                 <div class="mg-blog-category">
-                                   <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/uncategorized/" alt="View all posts in Uncategorized"> 
+                                   <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=1" alt="View all posts in Uncategorized"> 
                                  Uncategorized
                              </a>                                </div>
                                  <div class="title_small_post">
                                     
-                                    <a href="https://dailytopic.online/2020/01/12/events-held-in-paris-beautifull-and-amazing-things/">
+                                    <a href="https://dailytopic.online/?p=22">
                                         <h5>
                                         Events Held In Paris Beautifull And Amazing Things                                        </h5>
                                     </a>
@@ -584,18 +584,18 @@ Skip to content</a>
                             
                   <li class="small-post clearfix">
                                                                            <div class="img-small-post">
-                                <a href="https://dailytopic.online/2020/01/12/wherein-life-sea-years-lights-fill-kind-midst-spirit/">
+                                <a href="https://dailytopic.online/?p=24">
                                                                     <img src="https://dailytopic.online/wp-content/uploads/2020/01/blog11.jpg" alt="Wherein life sea years lights fill kind midst Spirit">
                                                                 </a>
                             </div>
                                                 <div class="small-post-content">
                                 <div class="mg-blog-category">
-                                   <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/uncategorized/" alt="View all posts in Uncategorized"> 
+                                   <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=1" alt="View all posts in Uncategorized"> 
                                  Uncategorized
                              </a>                                </div>
                                  <div class="title_small_post">
                                     
-                                    <a href="https://dailytopic.online/2020/01/12/wherein-life-sea-years-lights-fill-kind-midst-spirit/">
+                                    <a href="https://dailytopic.online/?p=24">
                                         <h5>
                                         Wherein life sea years lights fill kind midst Spirit                                        </h5>
                                     </a>
@@ -607,12 +607,12 @@ Skip to content</a>
                   <li class="small-post clearfix">
                                                                         <div class="small-post-content">
                                 <div class="mg-blog-category">
-                                   <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/uncategorized/" alt="View all posts in Uncategorized"> 
+                                   <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=1" alt="View all posts in Uncategorized"> 
                                  Uncategorized
                              </a>                                </div>
                                  <div class="title_small_post">
                                     
-                                    <a href="https://dailytopic.online/2020/01/12/we-are-able-to-create-beautifull-and-amazing-things/">
+                                    <a href="https://dailytopic.online/?p=26">
                                         <h5>
                                         we are able to create beautifull and amazing things                                        </h5>
                                     </a>
@@ -626,20 +626,20 @@ Skip to content</a>
                             <div class="mg-posts-sec mg-posts-modul-2"><div class="mg-posts-sec-inner row"><div class="small-list-post col-lg-12"><ul>                
                   <li class="small-post clearfix">
                                                                            <div class="img-small-post">
-                                <a href="https://dailytopic.online/2022/01/22/this-is-how-the-abu-dhabi-dubai-etihad-rails-train-will-appear-2/">
+                                <a href="https://dailytopic.online/?p=300">
                                                                     <img src="https://dailytopic.online/wp-content/uploads/2022/01/AAT1AoF.png" alt="This is how the Abu Dhabi-Dubai Etihad Rails train will appear.">
                                                                 </a>
                             </div>
                                                 <div class="small-post-content">
                                 <div class="mg-blog-category">
-                                   <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/science/" alt="View all posts in Science"> 
+                                   <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=6" alt="View all posts in Science"> 
                                  Science
-                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/category/tech/" alt="View all posts in Tech"> 
+                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=8" alt="View all posts in Tech"> 
                                  Tech
                              </a>                                </div>
                                  <div class="title_small_post">
                                     
-                                    <a href="https://dailytopic.online/2022/01/22/this-is-how-the-abu-dhabi-dubai-etihad-rails-train-will-appear-2/">
+                                    <a href="https://dailytopic.online/?p=300">
                                         <h5>
                                         This is how the Abu Dhabi-Dubai Etihad Rails train will appear.                                        </h5>
                                     </a>
@@ -650,18 +650,18 @@ Skip to content</a>
                             
                   <li class="small-post clearfix">
                                                                            <div class="img-small-post">
-                                <a href="https://dailytopic.online/2022/01/22/major-barriers-are-broken-when-pig-kidneys-implanted-in-a-brain-dead-man-produce-urine-for-74-hours/">
+                                <a href="https://dailytopic.online/?p=274">
                                                                     <img src="https://dailytopic.online/wp-content/uploads/2022/01/AAT0yFm.png" alt="&#8216;Major barriers&#8217; are broken when pig kidneys implanted in a brain-dead man produce urine for 74 hours.">
                                                                 </a>
                             </div>
                                                 <div class="small-post-content">
                                 <div class="mg-blog-category">
-                                   <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/health/" alt="View all posts in HEALTH"> 
+                                   <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=21" alt="View all posts in HEALTH"> 
                                  HEALTH
                              </a>                                </div>
                                  <div class="title_small_post">
                                     
-                                    <a href="https://dailytopic.online/2022/01/22/major-barriers-are-broken-when-pig-kidneys-implanted-in-a-brain-dead-man-produce-urine-for-74-hours/">
+                                    <a href="https://dailytopic.online/?p=274">
                                         <h5>
                                         &#8216;Major barriers&#8217; are broken when pig kidneys implanted in a brain-dead man produce urine for 74 hours.                                        </h5>
                                     </a>
@@ -672,18 +672,18 @@ Skip to content</a>
                             
                   <li class="small-post clearfix">
                                                                            <div class="img-small-post">
-                                <a href="https://dailytopic.online/2022/01/22/mysterious-sand-sculptures-have-appeared-near-a-lake-in-the-united-states-how-can-you-find-out/">
+                                <a href="https://dailytopic.online/?p=273">
                                                                     <img src="https://dailytopic.online/wp-content/uploads/2022/01/AAT0DzJ.png" alt="Mysterious sand sculptures have appeared near a lake in the United States. How can you find out?">
                                                                 </a>
                             </div>
                                                 <div class="small-post-content">
                                 <div class="mg-blog-category">
-                                   <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/world/" alt="View all posts in World"> 
+                                   <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=10" alt="View all posts in World"> 
                                  World
                              </a>                                </div>
                                  <div class="title_small_post">
                                     
-                                    <a href="https://dailytopic.online/2022/01/22/mysterious-sand-sculptures-have-appeared-near-a-lake-in-the-united-states-how-can-you-find-out/">
+                                    <a href="https://dailytopic.online/?p=273">
                                         <h5>
                                         Mysterious sand sculptures have appeared near a lake in the United States. How can you find out?                                        </h5>
                                     </a>
@@ -694,18 +694,18 @@ Skip to content</a>
                             
                   <li class="small-post clearfix">
                                                                            <div class="img-small-post">
-                                <a href="https://dailytopic.online/2022/01/22/reliance-jio-is-making-the-most-money-from-its-subscribers-than-it-has-ever-made/">
+                                <a href="https://dailytopic.online/?p=272">
                                                                     <img src="https://dailytopic.online/wp-content/uploads/2022/01/AAT0Ceg.png" alt="Reliance Jio is making the most money from its subscribers than it has ever made.">
                                                                 </a>
                             </div>
                                                 <div class="small-post-content">
                                 <div class="mg-blog-category">
-                                   <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/tech/" alt="View all posts in Tech"> 
+                                   <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=8" alt="View all posts in Tech"> 
                                  Tech
                              </a>                                </div>
                                  <div class="title_small_post">
                                     
-                                    <a href="https://dailytopic.online/2022/01/22/reliance-jio-is-making-the-most-money-from-its-subscribers-than-it-has-ever-made/">
+                                    <a href="https://dailytopic.online/?p=272">
                                         <h5>
                                         Reliance Jio is making the most money from its subscribers than it has ever made.                                        </h5>
                                     </a>
@@ -740,22 +740,22 @@ Skip to content</a>
             	<div class="col-12 ">
                     <!--  post lg -->   
 																							<div class="mg-blog-post lg back-img" style="background-image: url('https://dailytopic.online/wp-content/uploads/2022/01/AAT1AoF.png');">
-							<a class="link-div" href="https://dailytopic.online/2022/01/22/this-is-how-the-abu-dhabi-dubai-etihad-rails-train-will-appear-2/">
+							<a class="link-div" href="https://dailytopic.online/?p=300">
 		                	</a>
 						<article class="bottom">
                         	<span class="post-form"><i class="fa fa-camera"></i></span>
-                        	<div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/science/" alt="View all posts in Science"> 
+                        	<div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=6" alt="View all posts in Science"> 
                                  Science
-                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/category/tech/" alt="View all posts in Tech"> 
+                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=8" alt="View all posts in Tech"> 
                                  Tech
                              </a> </div>
-                        	<h4 class="title"> <a href="https://dailytopic.online/2022/01/22/this-is-how-the-abu-dhabi-dubai-etihad-rails-train-will-appear-2/">This is how the Abu Dhabi-Dubai Etihad Rails train will appear.</a>
+                        	<h4 class="title"> <a href="https://dailytopic.online/?p=300">This is how the Abu Dhabi-Dubai Etihad Rails train will appear.</a>
 </h4>
                         	     <div class="mg-blog-meta">
         <span class="mg-blog-date"><i class="fas fa-clock"></i>
-         <a href="https://dailytopic.online/2022/01/">
+         <a href="https://dailytopic.online/?m=202201">
          Jan 22, 2022</a></span>
-         <a class="auth" href="https://dailytopic.online/author/admin/"><i class="fas fa-user-circle"></i> 
+         <a class="auth" href="https://dailytopic.online/?author=1"><i class="fas fa-user-circle"></i> 
         Admin</a>
          
     </div>
@@ -770,19 +770,19 @@ Skip to content</a>
 						<li class="small-post featured-post-1 clearfix">
 													<!-- img-small-post -->
 							<div class="img-small-post">
-								<a href="https://dailytopic.online/2022/01/22/this-is-how-the-abu-dhabi-dubai-etihad-rails-train-will-appear-2/">
+								<a href="https://dailytopic.online/?p=300">
 	                            		                                	<img src="https://dailytopic.online/wp-content/uploads/2022/01/AAT1AoF.png">
 	                            		                        	</a>
 							</div>
 												<!-- // img-small-post -->
 						<!-- small-post-content -->
 						<div class="small-post-content">
-							<div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/science/" alt="View all posts in Science"> 
+							<div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=6" alt="View all posts in Science"> 
                                  Science
-                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/category/tech/" alt="View all posts in Tech"> 
+                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=8" alt="View all posts in Tech"> 
                                  Tech
                              </a> </div>
-							<h5 class="title"> <a href="https://dailytopic.online/2022/01/22/this-is-how-the-abu-dhabi-dubai-etihad-rails-train-will-appear-2/">This is how the Abu Dhabi-Dubai Etihad Rails train will appear.</a>
+							<h5 class="title"> <a href="https://dailytopic.online/?p=300">This is how the Abu Dhabi-Dubai Etihad Rails train will appear.</a>
 </h5>
 						</div>
 						<!-- /small-post-content -->
@@ -792,17 +792,17 @@ Skip to content</a>
 						<li class="small-post featured-post-2 clearfix">
 													<!-- img-small-post -->
 							<div class="img-small-post">
-								<a href="https://dailytopic.online/2022/01/22/major-barriers-are-broken-when-pig-kidneys-implanted-in-a-brain-dead-man-produce-urine-for-74-hours/">
+								<a href="https://dailytopic.online/?p=274">
 	                            		                                	<img src="https://dailytopic.online/wp-content/uploads/2022/01/AAT0yFm.png">
 	                            		                        	</a>
 							</div>
 												<!-- // img-small-post -->
 						<!-- small-post-content -->
 						<div class="small-post-content">
-							<div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/health/" alt="View all posts in HEALTH"> 
+							<div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=21" alt="View all posts in HEALTH"> 
                                  HEALTH
                              </a> </div>
-							<h5 class="title"> <a href="https://dailytopic.online/2022/01/22/major-barriers-are-broken-when-pig-kidneys-implanted-in-a-brain-dead-man-produce-urine-for-74-hours/">&#8216;Major barriers&#8217; are broken when pig kidneys implanted in a brain-dead man produce urine for 74 hours.</a>
+							<h5 class="title"> <a href="https://dailytopic.online/?p=274">&#8216;Major barriers&#8217; are broken when pig kidneys implanted in a brain-dead man produce urine for 74 hours.</a>
 </h5>
 						</div>
 						<!-- /small-post-content -->
@@ -812,17 +812,17 @@ Skip to content</a>
 						<li class="small-post featured-post-3 clearfix">
 													<!-- img-small-post -->
 							<div class="img-small-post">
-								<a href="https://dailytopic.online/2022/01/22/mysterious-sand-sculptures-have-appeared-near-a-lake-in-the-united-states-how-can-you-find-out/">
+								<a href="https://dailytopic.online/?p=273">
 	                            		                                	<img src="https://dailytopic.online/wp-content/uploads/2022/01/AAT0DzJ.png">
 	                            		                        	</a>
 							</div>
 												<!-- // img-small-post -->
 						<!-- small-post-content -->
 						<div class="small-post-content">
-							<div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/world/" alt="View all posts in World"> 
+							<div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=10" alt="View all posts in World"> 
                                  World
                              </a> </div>
-							<h5 class="title"> <a href="https://dailytopic.online/2022/01/22/mysterious-sand-sculptures-have-appeared-near-a-lake-in-the-united-states-how-can-you-find-out/">Mysterious sand sculptures have appeared near a lake in the United States. How can you find out?</a>
+							<h5 class="title"> <a href="https://dailytopic.online/?p=273">Mysterious sand sculptures have appeared near a lake in the United States. How can you find out?</a>
 </h5>
 						</div>
 						<!-- /small-post-content -->
@@ -832,17 +832,17 @@ Skip to content</a>
 						<li class="small-post featured-post-4 clearfix">
 													<!-- img-small-post -->
 							<div class="img-small-post">
-								<a href="https://dailytopic.online/2022/01/22/reliance-jio-is-making-the-most-money-from-its-subscribers-than-it-has-ever-made/">
+								<a href="https://dailytopic.online/?p=272">
 	                            		                                	<img src="https://dailytopic.online/wp-content/uploads/2022/01/AAT0Ceg.png">
 	                            		                        	</a>
 							</div>
 												<!-- // img-small-post -->
 						<!-- small-post-content -->
 						<div class="small-post-content">
-							<div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/tech/" alt="View all posts in Tech"> 
+							<div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=8" alt="View all posts in Tech"> 
                                  Tech
                              </a> </div>
-							<h5 class="title"> <a href="https://dailytopic.online/2022/01/22/reliance-jio-is-making-the-most-money-from-its-subscribers-than-it-has-ever-made/">Reliance Jio is making the most money from its subscribers than it has ever made.</a>
+							<h5 class="title"> <a href="https://dailytopic.online/?p=272">Reliance Jio is making the most money from its subscribers than it has ever made.</a>
 </h5>
 						</div>
 						<!-- /small-post-content -->
@@ -869,7 +869,7 @@ Skip to content</a>
                                     <li class="small-post clearfix">
                                         <!-- small_post -->
                                                                                 <div class="img-small-post">
-                                            <a href="https://dailytopic.online/2022/01/22/mysterious-sand-sculptures-have-appeared-near-a-lake-in-the-united-states-how-can-you-find-out/">
+                                            <a href="https://dailytopic.online/?p=273">
                                                                                                     <img src="https://dailytopic.online/wp-content/uploads/2022/01/AAT0DzJ.png" alt="Mysterious sand sculptures have appeared near a lake in the United States. How can you find out?">
                                                                                             </a>
                                             <!-- img-small-post -->
@@ -877,11 +877,11 @@ Skip to content</a>
                                         <!-- // img-small-post -->
                                                                                 <div class="small-post-content">
                                             <div class="mg-blog-category"> 
-                                                <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/world/" alt="View all posts in World"> 
+                                                <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=10" alt="View all posts in World"> 
                                  World
                              </a>                                            </div>
                                             <!-- small-post-content -->
-                                            <h5 class="title"><a href="https://dailytopic.online/2022/01/22/mysterious-sand-sculptures-have-appeared-near-a-lake-in-the-united-states-how-can-you-find-out/">Mysterious sand sculptures have appeared near a lake in the United States. How can you find out?</a></h5>
+                                            <h5 class="title"><a href="https://dailytopic.online/?p=273">Mysterious sand sculptures have appeared near a lake in the United States. How can you find out?</a></h5>
                                             <!-- // title_small_post -->
                                         </div>
                                         <!-- // small-post-content -->
@@ -896,7 +896,7 @@ Skip to content</a>
                                     <li class="small-post clearfix">
                                         <!-- small_post -->
                                                                                 <div class="img-small-post">
-                                            <a href="https://dailytopic.online/2022/01/21/animal-rights-activists-have-slammed-gucci-for-using-real-tigers-in-an-ad-campaign-shoot/">
+                                            <a href="https://dailytopic.online/?p=224">
                                                                                                     <img src="https://dailytopic.online/wp-content/uploads/2022/01/AAT0zSk.png" alt="Animal rights activists have slammed Gucci for using real tigers in an ad campaign shoot.">
                                                                                             </a>
                                             <!-- img-small-post -->
@@ -904,11 +904,11 @@ Skip to content</a>
                                         <!-- // img-small-post -->
                                                                                 <div class="small-post-content">
                                             <div class="mg-blog-category"> 
-                                                <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/world/" alt="View all posts in World"> 
+                                                <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=10" alt="View all posts in World"> 
                                  World
                              </a>                                            </div>
                                             <!-- small-post-content -->
-                                            <h5 class="title"><a href="https://dailytopic.online/2022/01/21/animal-rights-activists-have-slammed-gucci-for-using-real-tigers-in-an-ad-campaign-shoot/">Animal rights activists have slammed Gucci for using real tigers in an ad campaign shoot.</a></h5>
+                                            <h5 class="title"><a href="https://dailytopic.online/?p=224">Animal rights activists have slammed Gucci for using real tigers in an ad campaign shoot.</a></h5>
                                             <!-- // title_small_post -->
                                         </div>
                                         <!-- // small-post-content -->
@@ -923,7 +923,7 @@ Skip to content</a>
                                     <li class="small-post clearfix">
                                         <!-- small_post -->
                                                                                 <div class="img-small-post">
-                                            <a href="https://dailytopic.online/2022/01/20/in-india-kodak-introduces-magsafe-wireless-iphone-chargers-for-the-car-and-home/">
+                                            <a href="https://dailytopic.online/?p=187">
                                                                                                     <img src="https://dailytopic.online/wp-content/uploads/2022/01/MagSafe-architecture-740x429-1.jpg" alt="In India, Kodak introduces Magsafe wireless iPhone chargers for the car and home.">
                                                                                             </a>
                                             <!-- img-small-post -->
@@ -931,15 +931,15 @@ Skip to content</a>
                                         <!-- // img-small-post -->
                                                                                 <div class="small-post-content">
                                             <div class="mg-blog-category"> 
-                                                <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/science/" alt="View all posts in Science"> 
+                                                <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=6" alt="View all posts in Science"> 
                                  Science
-                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/category/tech/" alt="View all posts in Tech"> 
+                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=8" alt="View all posts in Tech"> 
                                  Tech
-                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/category/world/" alt="View all posts in World"> 
+                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=10" alt="View all posts in World"> 
                                  World
                              </a>                                            </div>
                                             <!-- small-post-content -->
-                                            <h5 class="title"><a href="https://dailytopic.online/2022/01/20/in-india-kodak-introduces-magsafe-wireless-iphone-chargers-for-the-car-and-home/">In India, Kodak introduces Magsafe wireless iPhone chargers for the car and home.</a></h5>
+                                            <h5 class="title"><a href="https://dailytopic.online/?p=187">In India, Kodak introduces Magsafe wireless iPhone chargers for the car and home.</a></h5>
                                             <!-- // title_small_post -->
                                         </div>
                                         <!-- // small-post-content -->
@@ -954,7 +954,7 @@ Skip to content</a>
                                     <li class="small-post clearfix">
                                         <!-- small_post -->
                                                                                 <div class="img-small-post">
-                                            <a href="https://dailytopic.online/2022/01/20/gaspard-ulliel-the-star-of-marvels-moon-knight-series-died-at-the-age-of-37-in-a-skiing-accident/">
+                                            <a href="https://dailytopic.online/?p=154">
                                                                                                     <img src="https://dailytopic.online/wp-content/uploads/2022/01/398763c502899a1a10910eb360fa8161.jpg" alt="Gaspard Ulliel, the star of Marvel&#8217;s &#8216;Moon Knight&#8217; series, died at the age of 37 in a skiing accident.">
                                                                                             </a>
                                             <!-- img-small-post -->
@@ -962,13 +962,13 @@ Skip to content</a>
                                         <!-- // img-small-post -->
                                                                                 <div class="small-post-content">
                                             <div class="mg-blog-category"> 
-                                                <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/entertainment/" alt="View all posts in Entertainment"> 
+                                                <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=20" alt="View all posts in Entertainment"> 
                                  Entertainment
-                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/category/world/" alt="View all posts in World"> 
+                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=10" alt="View all posts in World"> 
                                  World
                              </a>                                            </div>
                                             <!-- small-post-content -->
-                                            <h5 class="title"><a href="https://dailytopic.online/2022/01/20/gaspard-ulliel-the-star-of-marvels-moon-knight-series-died-at-the-age-of-37-in-a-skiing-accident/">Gaspard Ulliel, the star of Marvel&#8217;s &#8216;Moon Knight&#8217; series, died at the age of 37 in a skiing accident.</a></h5>
+                                            <h5 class="title"><a href="https://dailytopic.online/?p=154">Gaspard Ulliel, the star of Marvel&#8217;s &#8216;Moon Knight&#8217; series, died at the age of 37 in a skiing accident.</a></h5>
                                             <!-- // title_small_post -->
                                         </div>
                                         <!-- // small-post-content -->
@@ -983,7 +983,7 @@ Skip to content</a>
                                     <li class="small-post clearfix">
                                         <!-- small_post -->
                                                                                 <div class="img-small-post">
-                                            <a href="https://dailytopic.online/2022/01/18/asteroid-7482-the-size-of-the-burj-khalifa-will-pass-earth-on-january-18-will-it-pose-any-threat/">
+                                            <a href="https://dailytopic.online/?p=140">
                                                                                                     <img src="https://dailytopic.online/wp-content/uploads/2022/01/image.png" alt="Asteroid 7482, the size of the Burj Khalifa, will pass Earth on January 18; will it pose any threat?">
                                                                                             </a>
                                             <!-- img-small-post -->
@@ -991,13 +991,13 @@ Skip to content</a>
                                         <!-- // img-small-post -->
                                                                                 <div class="small-post-content">
                                             <div class="mg-blog-category"> 
-                                                <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/science/" alt="View all posts in Science"> 
+                                                <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=6" alt="View all posts in Science"> 
                                  Science
-                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/category/world/" alt="View all posts in World"> 
+                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=10" alt="View all posts in World"> 
                                  World
                              </a>                                            </div>
                                             <!-- small-post-content -->
-                                            <h5 class="title"><a href="https://dailytopic.online/2022/01/18/asteroid-7482-the-size-of-the-burj-khalifa-will-pass-earth-on-january-18-will-it-pose-any-threat/">Asteroid 7482, the size of the Burj Khalifa, will pass Earth on January 18; will it pose any threat?</a></h5>
+                                            <h5 class="title"><a href="https://dailytopic.online/?p=140">Asteroid 7482, the size of the Burj Khalifa, will pass Earth on January 18; will it pose any threat?</a></h5>
                                             <!-- // title_small_post -->
                                         </div>
                                         <!-- // small-post-content -->
@@ -1012,7 +1012,7 @@ Skip to content</a>
                                     <li class="small-post clearfix">
                                         <!-- small_post -->
                                                                                 <div class="img-small-post">
-                                            <a href="https://dailytopic.online/2020/01/12/where-to-travel-asia-kind-mid-spirit/">
+                                            <a href="https://dailytopic.online/?p=38">
                                                                                                     <img src="https://dailytopic.online/wp-content/uploads/2020/01/blog4.jpg" alt="Where to travel asia Kind Mid Spirit">
                                                                                             </a>
                                             <!-- img-small-post -->
@@ -1020,13 +1020,13 @@ Skip to content</a>
                                         <!-- // img-small-post -->
                                                                                 <div class="small-post-content">
                                             <div class="mg-blog-category"> 
-                                                <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/uncategorized/" alt="View all posts in Uncategorized"> 
+                                                <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=1" alt="View all posts in Uncategorized"> 
                                  Uncategorized
-                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/category/world/" alt="View all posts in World"> 
+                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=10" alt="View all posts in World"> 
                                  World
                              </a>                                            </div>
                                             <!-- small-post-content -->
-                                            <h5 class="title"><a href="https://dailytopic.online/2020/01/12/where-to-travel-asia-kind-mid-spirit/">Where to travel asia Kind Mid Spirit</a></h5>
+                                            <h5 class="title"><a href="https://dailytopic.online/?p=38">Where to travel asia Kind Mid Spirit</a></h5>
                                             <!-- // title_small_post -->
                                         </div>
                                         <!-- // small-post-content -->
@@ -1049,22 +1049,22 @@ Skip to content</a>
                                 <div class="item">
                     
                             <div class="mg-blog-post lg back-img" style="background-image: url('https://dailytopic.online/wp-content/uploads/2022/01/AAT0DzJ.png');">
-                                <a class="link-div" href="https://dailytopic.online/2022/01/22/mysterious-sand-sculptures-have-appeared-near-a-lake-in-the-united-states-how-can-you-find-out/"></a>
+                                <a class="link-div" href="https://dailytopic.online/?p=273"></a>
                                 <article class="bottom">
                                 <span class="post-form"><i class="fas fa-camera"></i></span>
                                     <div class="mg-blog-category">
-                                        <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/world/" alt="View all posts in World"> 
+                                        <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=10" alt="View all posts in World"> 
                                  World
                              </a>                                    </div>
                                     
                                     <h4 class="title">
-                                        <a href="https://dailytopic.online/2022/01/22/mysterious-sand-sculptures-have-appeared-near-a-lake-in-the-united-states-how-can-you-find-out/">Mysterious sand sculptures have appeared near a lake in the United States. How can you find out?</a>
+                                        <a href="https://dailytopic.online/?p=273">Mysterious sand sculptures have appeared near a lake in the United States. How can you find out?</a>
                                     </h4>
                                             <div class="mg-blog-meta">
         <span class="mg-blog-date"><i class="fas fa-clock"></i>
-         <a href="https://dailytopic.online/2022/01/">
+         <a href="https://dailytopic.online/?m=202201">
          Jan 22, 2022</a></span>
-         <a class="auth" href="https://dailytopic.online/author/admin/"><i class="fas fa-user-circle"></i> 
+         <a class="auth" href="https://dailytopic.online/?author=1"><i class="fas fa-user-circle"></i> 
         Admin</a>
          
     </div>
@@ -1074,22 +1074,22 @@ Skip to content</a>
                                         <div class="item">
                     
                             <div class="mg-blog-post lg back-img" style="background-image: url('https://dailytopic.online/wp-content/uploads/2022/01/AAT0zSk.png');">
-                                <a class="link-div" href="https://dailytopic.online/2022/01/21/animal-rights-activists-have-slammed-gucci-for-using-real-tigers-in-an-ad-campaign-shoot/"></a>
+                                <a class="link-div" href="https://dailytopic.online/?p=224"></a>
                                 <article class="bottom">
                                 <span class="post-form"><i class="fas fa-camera"></i></span>
                                     <div class="mg-blog-category">
-                                        <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/world/" alt="View all posts in World"> 
+                                        <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=10" alt="View all posts in World"> 
                                  World
                              </a>                                    </div>
                                     
                                     <h4 class="title">
-                                        <a href="https://dailytopic.online/2022/01/21/animal-rights-activists-have-slammed-gucci-for-using-real-tigers-in-an-ad-campaign-shoot/">Animal rights activists have slammed Gucci for using real tigers in an ad campaign shoot.</a>
+                                        <a href="https://dailytopic.online/?p=224">Animal rights activists have slammed Gucci for using real tigers in an ad campaign shoot.</a>
                                     </h4>
                                             <div class="mg-blog-meta">
         <span class="mg-blog-date"><i class="fas fa-clock"></i>
-         <a href="https://dailytopic.online/2022/01/">
+         <a href="https://dailytopic.online/?m=202201">
          Jan 21, 2022</a></span>
-         <a class="auth" href="https://dailytopic.online/author/admin/"><i class="fas fa-user-circle"></i> 
+         <a class="auth" href="https://dailytopic.online/?author=1"><i class="fas fa-user-circle"></i> 
         Admin</a>
          
     </div>
@@ -1099,26 +1099,26 @@ Skip to content</a>
                                         <div class="item">
                     
                             <div class="mg-blog-post lg back-img" style="background-image: url('https://dailytopic.online/wp-content/uploads/2022/01/MagSafe-architecture-740x429-1.jpg');">
-                                <a class="link-div" href="https://dailytopic.online/2022/01/20/in-india-kodak-introduces-magsafe-wireless-iphone-chargers-for-the-car-and-home/"></a>
+                                <a class="link-div" href="https://dailytopic.online/?p=187"></a>
                                 <article class="bottom">
                                 <span class="post-form"><i class="fas fa-camera"></i></span>
                                     <div class="mg-blog-category">
-                                        <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/science/" alt="View all posts in Science"> 
+                                        <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=6" alt="View all posts in Science"> 
                                  Science
-                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/category/tech/" alt="View all posts in Tech"> 
+                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=8" alt="View all posts in Tech"> 
                                  Tech
-                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/category/world/" alt="View all posts in World"> 
+                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=10" alt="View all posts in World"> 
                                  World
                              </a>                                    </div>
                                     
                                     <h4 class="title">
-                                        <a href="https://dailytopic.online/2022/01/20/in-india-kodak-introduces-magsafe-wireless-iphone-chargers-for-the-car-and-home/">In India, Kodak introduces Magsafe wireless iPhone chargers for the car and home.</a>
+                                        <a href="https://dailytopic.online/?p=187">In India, Kodak introduces Magsafe wireless iPhone chargers for the car and home.</a>
                                     </h4>
                                             <div class="mg-blog-meta">
         <span class="mg-blog-date"><i class="fas fa-clock"></i>
-         <a href="https://dailytopic.online/2022/01/">
+         <a href="https://dailytopic.online/?m=202201">
          Jan 20, 2022</a></span>
-         <a class="auth" href="https://dailytopic.online/author/admin/"><i class="fas fa-user-circle"></i> 
+         <a class="auth" href="https://dailytopic.online/?author=1"><i class="fas fa-user-circle"></i> 
         Admin</a>
          
     </div>
@@ -1128,24 +1128,24 @@ Skip to content</a>
                                         <div class="item">
                     
                             <div class="mg-blog-post lg back-img" style="background-image: url('https://dailytopic.online/wp-content/uploads/2022/01/398763c502899a1a10910eb360fa8161.jpg');">
-                                <a class="link-div" href="https://dailytopic.online/2022/01/20/gaspard-ulliel-the-star-of-marvels-moon-knight-series-died-at-the-age-of-37-in-a-skiing-accident/"></a>
+                                <a class="link-div" href="https://dailytopic.online/?p=154"></a>
                                 <article class="bottom">
                                 <span class="post-form"><i class="fas fa-camera"></i></span>
                                     <div class="mg-blog-category">
-                                        <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/entertainment/" alt="View all posts in Entertainment"> 
+                                        <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=20" alt="View all posts in Entertainment"> 
                                  Entertainment
-                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/category/world/" alt="View all posts in World"> 
+                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=10" alt="View all posts in World"> 
                                  World
                              </a>                                    </div>
                                     
                                     <h4 class="title">
-                                        <a href="https://dailytopic.online/2022/01/20/gaspard-ulliel-the-star-of-marvels-moon-knight-series-died-at-the-age-of-37-in-a-skiing-accident/">Gaspard Ulliel, the star of Marvel&#8217;s &#8216;Moon Knight&#8217; series, died at the age of 37 in a skiing accident.</a>
+                                        <a href="https://dailytopic.online/?p=154">Gaspard Ulliel, the star of Marvel&#8217;s &#8216;Moon Knight&#8217; series, died at the age of 37 in a skiing accident.</a>
                                     </h4>
                                             <div class="mg-blog-meta">
         <span class="mg-blog-date"><i class="fas fa-clock"></i>
-         <a href="https://dailytopic.online/2022/01/">
+         <a href="https://dailytopic.online/?m=202201">
          Jan 20, 2022</a></span>
-         <a class="auth" href="https://dailytopic.online/author/admin/"><i class="fas fa-user-circle"></i> 
+         <a class="auth" href="https://dailytopic.online/?author=1"><i class="fas fa-user-circle"></i> 
         Admin</a>
          
     </div>
@@ -1155,24 +1155,24 @@ Skip to content</a>
                                         <div class="item">
                     
                             <div class="mg-blog-post lg back-img" style="background-image: url('https://dailytopic.online/wp-content/uploads/2022/01/image.png');">
-                                <a class="link-div" href="https://dailytopic.online/2022/01/18/asteroid-7482-the-size-of-the-burj-khalifa-will-pass-earth-on-january-18-will-it-pose-any-threat/"></a>
+                                <a class="link-div" href="https://dailytopic.online/?p=140"></a>
                                 <article class="bottom">
                                 <span class="post-form"><i class="fas fa-camera"></i></span>
                                     <div class="mg-blog-category">
-                                        <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/science/" alt="View all posts in Science"> 
+                                        <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=6" alt="View all posts in Science"> 
                                  Science
-                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/category/world/" alt="View all posts in World"> 
+                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=10" alt="View all posts in World"> 
                                  World
                              </a>                                    </div>
                                     
                                     <h4 class="title">
-                                        <a href="https://dailytopic.online/2022/01/18/asteroid-7482-the-size-of-the-burj-khalifa-will-pass-earth-on-january-18-will-it-pose-any-threat/">Asteroid 7482, the size of the Burj Khalifa, will pass Earth on January 18; will it pose any threat?</a>
+                                        <a href="https://dailytopic.online/?p=140">Asteroid 7482, the size of the Burj Khalifa, will pass Earth on January 18; will it pose any threat?</a>
                                     </h4>
                                             <div class="mg-blog-meta">
         <span class="mg-blog-date"><i class="fas fa-clock"></i>
-         <a href="https://dailytopic.online/2022/01/">
+         <a href="https://dailytopic.online/?m=202201">
          Jan 18, 2022</a></span>
-         <a class="auth" href="https://dailytopic.online/author/admin/"><i class="fas fa-user-circle"></i> 
+         <a class="auth" href="https://dailytopic.online/?author=1"><i class="fas fa-user-circle"></i> 
         Admin</a>
          
     </div>
@@ -1206,24 +1206,24 @@ Skip to content</a>
                                                                                                         <!-- small_post -->
                                                     <div class="img-small-post">
                                                         <!-- img-small-post -->
-                                                        <a href="https://dailytopic.online/2020/01/12/everything-you-wanted-to-know-about-mega-citys/">
+                                                        <a href="https://dailytopic.online/?p=44">
                                                                                                                         <img src="https://dailytopic.online/wp-content/uploads/2020/01/blog1.jpg" alt="Everything You Wanted to Know About mega city&#8217;s">
                                                                                                                     </a>
                                                     </div>
                                                     <!-- // img-small-post -->
                                                                                                         <div class="small-post-content">
                                                         <div class="mg-blog-category">
-                                                            <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/uncategorized/" alt="View all posts in Uncategorized"> 
+                                                            <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=1" alt="View all posts in Uncategorized"> 
                                  Uncategorized
                              </a> 
                                                         </div>
                                                         <!-- small-post-content -->
-                                                        <h5 class="title"><a href="https://dailytopic.online/2020/01/12/everything-you-wanted-to-know-about-mega-citys/">Everything You Wanted to Know About mega city&#8217;s</a></h5>
+                                                        <h5 class="title"><a href="https://dailytopic.online/?p=44">Everything You Wanted to Know About mega city&#8217;s</a></h5>
                                                                                                                   <div class="mg-blog-meta">
         <span class="mg-blog-date"><i class="fas fa-clock"></i>
-         <a href="https://dailytopic.online/2020/01/">
+         <a href="https://dailytopic.online/?m=202001">
          Jan 12, 2020</a></span>
-         <a class="auth" href="https://dailytopic.online/author/admin/"><i class="fas fa-user-circle"></i> 
+         <a class="auth" href="https://dailytopic.online/?author=1"><i class="fas fa-user-circle"></i> 
         Admin</a>
          
     </div>
@@ -1234,7 +1234,7 @@ Skip to content</a>
 
 
 
-<br><a class="btn btn-theme post-btn" href="https://dailytopic.online/2020/01/12/everything-you-wanted-to-know-about-mega-citys/">Read More</a> 
+<br><a class="btn btn-theme post-btn" href="https://dailytopic.online/?p=44">Read More</a> 
                                                     </div>
                                                     <!-- // small-post-content -->
                                                 </li>
@@ -1248,21 +1248,21 @@ Skip to content</a>
                                                                                                         <!-- small_post -->
                                                     <div class="img-small-post">
                                                         <!-- img-small-post -->
-                                                        <a href="https://dailytopic.online/2020/01/12/metro-citys-should-make-road-with-protection-in-mind/">
+                                                        <a href="https://dailytopic.online/?p=42">
                                                                                                                         <img src="https://dailytopic.online/wp-content/uploads/2020/01/blog2.jpg" alt="Metro city&#8217;s should make road with protection In mind">
                                                                                                                     </a>
                                                     </div>
                                                     <!-- // img-small-post -->
                                                                                                         <div class="small-post-content">
                                                         <div class="mg-blog-category">
-                                                            <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/entertainment/" alt="View all posts in Entertainment"> 
+                                                            <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=20" alt="View all posts in Entertainment"> 
                                  Entertainment
-                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/category/uncategorized/" alt="View all posts in Uncategorized"> 
+                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=1" alt="View all posts in Uncategorized"> 
                                  Uncategorized
                              </a> 
                                                         </div>
                                                         <!-- small-post-content -->
-                                                        <h5 class="title"><a href="https://dailytopic.online/2020/01/12/metro-citys-should-make-road-with-protection-in-mind/">Metro city&#8217;s should make road with protection In mind</a></h5>
+                                                        <h5 class="title"><a href="https://dailytopic.online/?p=42">Metro city&#8217;s should make road with protection In mind</a></h5>
                                                          
                                                     </div>
                                                     <!-- // small-post-content -->
@@ -1277,21 +1277,21 @@ Skip to content</a>
                                                                                                         <!-- small_post -->
                                                     <div class="img-small-post">
                                                         <!-- img-small-post -->
-                                                        <a href="https://dailytopic.online/2020/01/12/go-for-western-economy-with-these-pioneering/">
+                                                        <a href="https://dailytopic.online/?p=40">
                                                                                                                         <img src="https://dailytopic.online/wp-content/uploads/2020/01/blog3.jpg" alt="Go For Western Economy With These Pioneering">
                                                                                                                     </a>
                                                     </div>
                                                     <!-- // img-small-post -->
                                                                                                         <div class="small-post-content">
                                                         <div class="mg-blog-category">
-                                                            <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/health/" alt="View all posts in HEALTH"> 
+                                                            <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=21" alt="View all posts in HEALTH"> 
                                  HEALTH
-                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/category/uncategorized/" alt="View all posts in Uncategorized"> 
+                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=1" alt="View all posts in Uncategorized"> 
                                  Uncategorized
                              </a> 
                                                         </div>
                                                         <!-- small-post-content -->
-                                                        <h5 class="title"><a href="https://dailytopic.online/2020/01/12/go-for-western-economy-with-these-pioneering/">Go For Western Economy With These Pioneering</a></h5>
+                                                        <h5 class="title"><a href="https://dailytopic.online/?p=40">Go For Western Economy With These Pioneering</a></h5>
                                                          
                                                     </div>
                                                     <!-- // small-post-content -->
@@ -1306,21 +1306,21 @@ Skip to content</a>
                                                                                                         <!-- small_post -->
                                                     <div class="img-small-post">
                                                         <!-- img-small-post -->
-                                                        <a href="https://dailytopic.online/2020/01/12/where-to-travel-asia-kind-mid-spirit/">
+                                                        <a href="https://dailytopic.online/?p=38">
                                                                                                                         <img src="https://dailytopic.online/wp-content/uploads/2020/01/blog4.jpg" alt="Where to travel asia Kind Mid Spirit">
                                                                                                                     </a>
                                                     </div>
                                                     <!-- // img-small-post -->
                                                                                                         <div class="small-post-content">
                                                         <div class="mg-blog-category">
-                                                            <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/uncategorized/" alt="View all posts in Uncategorized"> 
+                                                            <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=1" alt="View all posts in Uncategorized"> 
                                  Uncategorized
-                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/category/world/" alt="View all posts in World"> 
+                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=10" alt="View all posts in World"> 
                                  World
                              </a> 
                                                         </div>
                                                         <!-- small-post-content -->
-                                                        <h5 class="title"><a href="https://dailytopic.online/2020/01/12/where-to-travel-asia-kind-mid-spirit/">Where to travel asia Kind Mid Spirit</a></h5>
+                                                        <h5 class="title"><a href="https://dailytopic.online/?p=38">Where to travel asia Kind Mid Spirit</a></h5>
                                                          
                                                     </div>
                                                     <!-- // small-post-content -->
@@ -1351,21 +1351,21 @@ Skip to content</a>
                                 <!-- blog -->
                                 <div class="mg-blog-post-3">
                                     <div class="mg-blog-img">
-                                        <a href="https://dailytopic.online/2022/01/22/watch-a-comedy-of-errors-ensues-between-rahul-and-pant-before-keshav-maharaj-blows-a-run-out-opportunity/">
+                                        <a href="https://dailytopic.online/?p=275">
                                                                                     <img src="https://dailytopic.online/wp-content/uploads/2022/01/AAT0tvr.png" alt="WATCH: A comedy of errors ensues between Rahul and Pant before Keshav Maharaj blows a run-out opportunity.">
                                                                                 </a>
                                     </div>
                                     <div class="mg-blog-inner">
                                         <div class="mg-blog-category"> 
-                                            <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/sports/" alt="View all posts in Sports"> 
+                                            <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=7" alt="View all posts in Sports"> 
                                  Sports
                              </a>                                        </div>
-                                        <h4 class="title"><a href="https://dailytopic.online/2022/01/22/watch-a-comedy-of-errors-ensues-between-rahul-and-pant-before-keshav-maharaj-blows-a-run-out-opportunity/">WATCH: A comedy of errors ensues between Rahul and Pant before Keshav Maharaj blows a run-out opportunity.</a></h4>
+                                        <h4 class="title"><a href="https://dailytopic.online/?p=275">WATCH: A comedy of errors ensues between Rahul and Pant before Keshav Maharaj blows a run-out opportunity.</a></h4>
                                             <div class="mg-blog-meta">
         <span class="mg-blog-date"><i class="fas fa-clock"></i>
-         <a href="https://dailytopic.online/2022/01/">
+         <a href="https://dailytopic.online/?m=202201">
          Jan 22, 2022</a></span>
-         <a class="auth" href="https://dailytopic.online/author/admin/"><i class="fas fa-user-circle"></i> 
+         <a class="auth" href="https://dailytopic.online/?author=1"><i class="fas fa-user-circle"></i> 
         Admin</a>
          
     </div>
@@ -1379,21 +1379,21 @@ Skip to content</a>
                                 <!-- blog -->
                                 <div class="mg-blog-post-3">
                                     <div class="mg-blog-img">
-                                        <a href="https://dailytopic.online/2022/01/21/rishbah-pant-surpasses-rahul-dravid-and-ms-dhoni-to-set-this-record/">
+                                        <a href="https://dailytopic.online/?p=223">
                                                                                     <img src="https://dailytopic.online/wp-content/uploads/2022/01/AAT0huG.png" alt="Rishabh Pant surpasses Rahul Dravid and MS Dhoni to set THIS record.">
                                                                                 </a>
                                     </div>
                                     <div class="mg-blog-inner">
                                         <div class="mg-blog-category"> 
-                                            <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/sports/" alt="View all posts in Sports"> 
+                                            <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=7" alt="View all posts in Sports"> 
                                  Sports
                              </a>                                        </div>
-                                        <h4 class="title"><a href="https://dailytopic.online/2022/01/21/rishbah-pant-surpasses-rahul-dravid-and-ms-dhoni-to-set-this-record/">Rishabh Pant surpasses Rahul Dravid and MS Dhoni to set THIS record.</a></h4>
+                                        <h4 class="title"><a href="https://dailytopic.online/?p=223">Rishabh Pant surpasses Rahul Dravid and MS Dhoni to set THIS record.</a></h4>
                                             <div class="mg-blog-meta">
         <span class="mg-blog-date"><i class="fas fa-clock"></i>
-         <a href="https://dailytopic.online/2022/01/">
+         <a href="https://dailytopic.online/?m=202201">
          Jan 21, 2022</a></span>
-         <a class="auth" href="https://dailytopic.online/author/admin/"><i class="fas fa-user-circle"></i> 
+         <a class="auth" href="https://dailytopic.online/?author=1"><i class="fas fa-user-circle"></i> 
         Admin</a>
          
     </div>
@@ -1407,21 +1407,21 @@ Skip to content</a>
                                 <!-- blog -->
                                 <div class="mg-blog-post-3">
                                     <div class="mg-blog-img">
-                                        <a href="https://dailytopic.online/2022/01/20/virat-kohli-breaks-sachin-tendulkars-record-for-a-massive-indian-feat/">
+                                        <a href="https://dailytopic.online/?p=166">
                                                                                     <img src="https://dailytopic.online/wp-content/uploads/2022/01/ad9c914504f33067d542eb6900323fca.jpg" alt="Virat Kohli breaks Sachin Tendulkar&#8217;s record for a massive Indian feat;">
                                                                                 </a>
                                     </div>
                                     <div class="mg-blog-inner">
                                         <div class="mg-blog-category"> 
-                                            <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/sports/" alt="View all posts in Sports"> 
+                                            <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=7" alt="View all posts in Sports"> 
                                  Sports
                              </a>                                        </div>
-                                        <h4 class="title"><a href="https://dailytopic.online/2022/01/20/virat-kohli-breaks-sachin-tendulkars-record-for-a-massive-indian-feat/">Virat Kohli breaks Sachin Tendulkar&#8217;s record for a massive Indian feat;</a></h4>
+                                        <h4 class="title"><a href="https://dailytopic.online/?p=166">Virat Kohli breaks Sachin Tendulkar&#8217;s record for a massive Indian feat;</a></h4>
                                             <div class="mg-blog-meta">
         <span class="mg-blog-date"><i class="fas fa-clock"></i>
-         <a href="https://dailytopic.online/2022/01/">
+         <a href="https://dailytopic.online/?m=202201">
          Jan 20, 2022</a></span>
-         <a class="auth" href="https://dailytopic.online/author/admin/"><i class="fas fa-user-circle"></i> 
+         <a class="auth" href="https://dailytopic.online/?author=1"><i class="fas fa-user-circle"></i> 
         Admin</a>
          
     </div>
@@ -1435,21 +1435,21 @@ Skip to content</a>
                                 <!-- blog -->
                                 <div class="mg-blog-post-3">
                                     <div class="mg-blog-img">
-                                        <a href="https://dailytopic.online/2022/01/18/who-ronaldo-and-messi-voted-for-in-the-best-fifa-mens-player-award-has-been-revealed/">
+                                        <a href="https://dailytopic.online/?p=136">
                                                                                     <img src="https://dailytopic.online/wp-content/uploads/2022/01/dzc.png" alt="Who Ronaldo and Messi voted for in the Best FIFA Men&#8217;s Player Award has been revealed.">
                                                                                 </a>
                                     </div>
                                     <div class="mg-blog-inner">
                                         <div class="mg-blog-category"> 
-                                            <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/sports/" alt="View all posts in Sports"> 
+                                            <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=7" alt="View all posts in Sports"> 
                                  Sports
                              </a>                                        </div>
-                                        <h4 class="title"><a href="https://dailytopic.online/2022/01/18/who-ronaldo-and-messi-voted-for-in-the-best-fifa-mens-player-award-has-been-revealed/">Who Ronaldo and Messi voted for in the Best FIFA Men&#8217;s Player Award has been revealed.</a></h4>
+                                        <h4 class="title"><a href="https://dailytopic.online/?p=136">Who Ronaldo and Messi voted for in the Best FIFA Men&#8217;s Player Award has been revealed.</a></h4>
                                             <div class="mg-blog-meta">
         <span class="mg-blog-date"><i class="fas fa-clock"></i>
-         <a href="https://dailytopic.online/2022/01/">
+         <a href="https://dailytopic.online/?m=202201">
          Jan 18, 2022</a></span>
-         <a class="auth" href="https://dailytopic.online/author/admin/"><i class="fas fa-user-circle"></i> 
+         <a class="auth" href="https://dailytopic.online/?author=1"><i class="fas fa-user-circle"></i> 
         Admin</a>
          
     </div>
@@ -1483,21 +1483,21 @@ Skip to content</a>
                             <div class="col-12 col-md-6">
     <div class="mg-post-thumb back-img md" style="background-image: url('https://dailytopic.online/wp-content/uploads/2022/01/AAT1AoF.png');">
         <span class="post-form"><i class="fas fa-camera"></i></span>
-        <a class="link-div" href="https://dailytopic.online/2022/01/22/this-is-how-the-abu-dhabi-dubai-etihad-rails-train-will-appear-2/"></a>
+        <a class="link-div" href="https://dailytopic.online/?p=300"></a>
     </div> 
 </div>
                             <div class="mg-sec-top-post py-3 col">
-                                    <div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/science/" alt="View all posts in Science"> 
+                                    <div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=6" alt="View all posts in Science"> 
                                  Science
-                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/category/tech/" alt="View all posts in Tech"> 
+                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=8" alt="View all posts in Tech"> 
                                  Tech
                              </a> </div>
-                                    <h4 class="title"><a href="https://dailytopic.online/2022/01/22/this-is-how-the-abu-dhabi-dubai-etihad-rails-train-will-appear-2/">This is how the Abu Dhabi-Dubai Etihad Rails train will appear.</a></h4>
+                                    <h4 class="title"><a href="https://dailytopic.online/?p=300">This is how the Abu Dhabi-Dubai Etihad Rails train will appear.</a></h4>
                                         <div class="mg-blog-meta">
         <span class="mg-blog-date"><i class="fas fa-clock"></i>
-         <a href="https://dailytopic.online/2022/01/">
+         <a href="https://dailytopic.online/?m=202201">
          Jan 22, 2022</a></span>
-         <a class="auth" href="https://dailytopic.online/author/admin/"><i class="fas fa-user-circle"></i> 
+         <a class="auth" href="https://dailytopic.online/?author=1"><i class="fas fa-user-circle"></i> 
         Admin</a>
          
     </div>
@@ -1510,19 +1510,19 @@ Skip to content</a>
                             <div class="col-12 col-md-6">
     <div class="mg-post-thumb back-img md" style="background-image: url('https://dailytopic.online/wp-content/uploads/2022/01/AAT0yFm.png');">
         <span class="post-form"><i class="fas fa-camera"></i></span>
-        <a class="link-div" href="https://dailytopic.online/2022/01/22/major-barriers-are-broken-when-pig-kidneys-implanted-in-a-brain-dead-man-produce-urine-for-74-hours/"></a>
+        <a class="link-div" href="https://dailytopic.online/?p=274"></a>
     </div> 
 </div>
                             <div class="mg-sec-top-post py-3 col">
-                                    <div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/health/" alt="View all posts in HEALTH"> 
+                                    <div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=21" alt="View all posts in HEALTH"> 
                                  HEALTH
                              </a> </div>
-                                    <h4 class="title"><a href="https://dailytopic.online/2022/01/22/major-barriers-are-broken-when-pig-kidneys-implanted-in-a-brain-dead-man-produce-urine-for-74-hours/">&#8216;Major barriers&#8217; are broken when pig kidneys implanted in a brain-dead man produce urine for 74 hours.</a></h4>
+                                    <h4 class="title"><a href="https://dailytopic.online/?p=274">&#8216;Major barriers&#8217; are broken when pig kidneys implanted in a brain-dead man produce urine for 74 hours.</a></h4>
                                         <div class="mg-blog-meta">
         <span class="mg-blog-date"><i class="fas fa-clock"></i>
-         <a href="https://dailytopic.online/2022/01/">
+         <a href="https://dailytopic.online/?m=202201">
          Jan 22, 2022</a></span>
-         <a class="auth" href="https://dailytopic.online/author/admin/"><i class="fas fa-user-circle"></i> 
+         <a class="auth" href="https://dailytopic.online/?author=1"><i class="fas fa-user-circle"></i> 
         Admin</a>
          
     </div>
@@ -1535,19 +1535,19 @@ Skip to content</a>
                             <div class="col-12 col-md-6">
     <div class="mg-post-thumb back-img md" style="background-image: url('https://dailytopic.online/wp-content/uploads/2022/01/AAT0DzJ.png');">
         <span class="post-form"><i class="fas fa-camera"></i></span>
-        <a class="link-div" href="https://dailytopic.online/2022/01/22/mysterious-sand-sculptures-have-appeared-near-a-lake-in-the-united-states-how-can-you-find-out/"></a>
+        <a class="link-div" href="https://dailytopic.online/?p=273"></a>
     </div> 
 </div>
                             <div class="mg-sec-top-post py-3 col">
-                                    <div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/world/" alt="View all posts in World"> 
+                                    <div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=10" alt="View all posts in World"> 
                                  World
                              </a> </div>
-                                    <h4 class="title"><a href="https://dailytopic.online/2022/01/22/mysterious-sand-sculptures-have-appeared-near-a-lake-in-the-united-states-how-can-you-find-out/">Mysterious sand sculptures have appeared near a lake in the United States. How can you find out?</a></h4>
+                                    <h4 class="title"><a href="https://dailytopic.online/?p=273">Mysterious sand sculptures have appeared near a lake in the United States. How can you find out?</a></h4>
                                         <div class="mg-blog-meta">
         <span class="mg-blog-date"><i class="fas fa-clock"></i>
-         <a href="https://dailytopic.online/2022/01/">
+         <a href="https://dailytopic.online/?m=202201">
          Jan 22, 2022</a></span>
-         <a class="auth" href="https://dailytopic.online/author/admin/"><i class="fas fa-user-circle"></i> 
+         <a class="auth" href="https://dailytopic.online/?author=1"><i class="fas fa-user-circle"></i> 
         Admin</a>
          
     </div>
@@ -1560,19 +1560,19 @@ Skip to content</a>
                             <div class="col-12 col-md-6">
     <div class="mg-post-thumb back-img md" style="background-image: url('https://dailytopic.online/wp-content/uploads/2022/01/AAT0Ceg.png');">
         <span class="post-form"><i class="fas fa-camera"></i></span>
-        <a class="link-div" href="https://dailytopic.online/2022/01/22/reliance-jio-is-making-the-most-money-from-its-subscribers-than-it-has-ever-made/"></a>
+        <a class="link-div" href="https://dailytopic.online/?p=272"></a>
     </div> 
 </div>
                             <div class="mg-sec-top-post py-3 col">
-                                    <div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/tech/" alt="View all posts in Tech"> 
+                                    <div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=8" alt="View all posts in Tech"> 
                                  Tech
                              </a> </div>
-                                    <h4 class="title"><a href="https://dailytopic.online/2022/01/22/reliance-jio-is-making-the-most-money-from-its-subscribers-than-it-has-ever-made/">Reliance Jio is making the most money from its subscribers than it has ever made.</a></h4>
+                                    <h4 class="title"><a href="https://dailytopic.online/?p=272">Reliance Jio is making the most money from its subscribers than it has ever made.</a></h4>
                                         <div class="mg-blog-meta">
         <span class="mg-blog-date"><i class="fas fa-clock"></i>
-         <a href="https://dailytopic.online/2022/01/">
+         <a href="https://dailytopic.online/?m=202201">
          Jan 22, 2022</a></span>
-         <a class="auth" href="https://dailytopic.online/author/admin/"><i class="fas fa-user-circle"></i> 
+         <a class="auth" href="https://dailytopic.online/?author=1"><i class="fas fa-user-circle"></i> 
         Admin</a>
          
     </div>
@@ -1585,19 +1585,19 @@ Skip to content</a>
                             <div class="col-12 col-md-6">
     <div class="mg-post-thumb back-img md" style="background-image: url('https://dailytopic.online/wp-content/uploads/2022/01/AAT0tvr.png');">
         <span class="post-form"><i class="fas fa-camera"></i></span>
-        <a class="link-div" href="https://dailytopic.online/2022/01/22/watch-a-comedy-of-errors-ensues-between-rahul-and-pant-before-keshav-maharaj-blows-a-run-out-opportunity/"></a>
+        <a class="link-div" href="https://dailytopic.online/?p=275"></a>
     </div> 
 </div>
                             <div class="mg-sec-top-post py-3 col">
-                                    <div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/sports/" alt="View all posts in Sports"> 
+                                    <div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=7" alt="View all posts in Sports"> 
                                  Sports
                              </a> </div>
-                                    <h4 class="title"><a href="https://dailytopic.online/2022/01/22/watch-a-comedy-of-errors-ensues-between-rahul-and-pant-before-keshav-maharaj-blows-a-run-out-opportunity/">WATCH: A comedy of errors ensues between Rahul and Pant before Keshav Maharaj blows a run-out opportunity.</a></h4>
+                                    <h4 class="title"><a href="https://dailytopic.online/?p=275">WATCH: A comedy of errors ensues between Rahul and Pant before Keshav Maharaj blows a run-out opportunity.</a></h4>
                                         <div class="mg-blog-meta">
         <span class="mg-blog-date"><i class="fas fa-clock"></i>
-         <a href="https://dailytopic.online/2022/01/">
+         <a href="https://dailytopic.online/?m=202201">
          Jan 22, 2022</a></span>
-         <a class="auth" href="https://dailytopic.online/author/admin/"><i class="fas fa-user-circle"></i> 
+         <a class="auth" href="https://dailytopic.online/?author=1"><i class="fas fa-user-circle"></i> 
         Admin</a>
          
     </div>
@@ -1631,25 +1631,25 @@ Skip to content</a>
 <div class="mg-wid-title"><h6>Categories</h6></div>
 			<ul>
 					<li class="cat-item cat-item-20">
-<a href="https://dailytopic.online/category/entertainment/">Entertainment</a>
+<a href="https://dailytopic.online/?cat=20">Entertainment</a>
 </li>
 	<li class="cat-item cat-item-21">
-<a href="https://dailytopic.online/category/health/">HEALTH</a>
+<a href="https://dailytopic.online/?cat=21">HEALTH</a>
 </li>
 	<li class="cat-item cat-item-6">
-<a href="https://dailytopic.online/category/science/">Science</a>
+<a href="https://dailytopic.online/?cat=6">Science</a>
 </li>
 	<li class="cat-item cat-item-7">
-<a href="https://dailytopic.online/category/sports/">Sports</a>
+<a href="https://dailytopic.online/?cat=7">Sports</a>
 </li>
 	<li class="cat-item cat-item-8">
-<a href="https://dailytopic.online/category/tech/">Tech</a>
+<a href="https://dailytopic.online/?cat=8">Tech</a>
 </li>
 	<li class="cat-item cat-item-1">
-<a href="https://dailytopic.online/category/uncategorized/">Uncategorized</a>
+<a href="https://dailytopic.online/?cat=1">Uncategorized</a>
 </li>
 	<li class="cat-item cat-item-10">
-<a href="https://dailytopic.online/category/world/">World</a>
+<a href="https://dailytopic.online/?cat=10">World</a>
 </li>
 			</ul>
 
@@ -1670,20 +1670,20 @@ Skip to content</a>
                             <!--col-md-3-->
                 <div class="col-md-3 col-sm-6 pulse animated">
                <div class="mg-blog-post-3 minh back-img" style="background-image: url('https://dailytopic.online/wp-content/uploads/2022/01/AAT1AoF.png');">
-                            <a class="link-div" href="https://dailytopic.online/2022/01/22/this-is-how-the-abu-dhabi-dubai-etihad-rails-train-will-appear-2/"></a>
+                            <a class="link-div" href="https://dailytopic.online/?p=300"></a>
                     <div class="mg-blog-inner">
                       <div class="mg-blog-category">
-                      <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/science/" alt="View all posts in Science"> 
+                      <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=6" alt="View all posts in Science"> 
                                  Science
-                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/category/tech/" alt="View all posts in Tech"> 
+                             </a><a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=8" alt="View all posts in Tech"> 
                                  Tech
                              </a>                      </div>
-                      <h4 class="title"> <a href="https://dailytopic.online/2022/01/22/this-is-how-the-abu-dhabi-dubai-etihad-rails-train-will-appear-2/" title="Permalink to: This is how the Abu Dhabi-Dubai Etihad Rails train will appear."> This is how the Abu Dhabi-Dubai Etihad Rails train will appear.</a> </h4>
+                      <h4 class="title"> <a href="https://dailytopic.online/?p=300" title="Permalink to: This is how the Abu Dhabi-Dubai Etihad Rails train will appear."> This is how the Abu Dhabi-Dubai Etihad Rails train will appear.</a> </h4>
                           <div class="mg-blog-meta">
         <span class="mg-blog-date"><i class="fas fa-clock"></i>
-         <a href="https://dailytopic.online/2022/01/">
+         <a href="https://dailytopic.online/?m=202201">
          Jan 22, 2022</a></span>
-         <a class="auth" href="https://dailytopic.online/author/admin/"><i class="fas fa-user-circle"></i> 
+         <a class="auth" href="https://dailytopic.online/?author=1"><i class="fas fa-user-circle"></i> 
         Admin</a>
          
     </div>
@@ -1694,18 +1694,18 @@ Skip to content</a>
                          <!--col-md-3-->
                 <div class="col-md-3 col-sm-6 pulse animated">
                <div class="mg-blog-post-3 minh back-img" style="background-image: url('https://dailytopic.online/wp-content/uploads/2022/01/AAT0yFm.png');">
-                            <a class="link-div" href="https://dailytopic.online/2022/01/22/major-barriers-are-broken-when-pig-kidneys-implanted-in-a-brain-dead-man-produce-urine-for-74-hours/"></a>
+                            <a class="link-div" href="https://dailytopic.online/?p=274"></a>
                     <div class="mg-blog-inner">
                       <div class="mg-blog-category">
-                      <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/health/" alt="View all posts in HEALTH"> 
+                      <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=21" alt="View all posts in HEALTH"> 
                                  HEALTH
                              </a>                      </div>
-                      <h4 class="title"> <a href="https://dailytopic.online/2022/01/22/major-barriers-are-broken-when-pig-kidneys-implanted-in-a-brain-dead-man-produce-urine-for-74-hours/" title="Permalink to: &#8216;Major barriers&#8217; are broken when pig kidneys implanted in a brain-dead man produce urine for 74 hours."> &#8216;Major barriers&#8217; are broken when pig kidneys implanted in a brain-dead man produce urine for 74 hours.</a> </h4>
+                      <h4 class="title"> <a href="https://dailytopic.online/?p=274" title="Permalink to: &#8216;Major barriers&#8217; are broken when pig kidneys implanted in a brain-dead man produce urine for 74 hours."> &#8216;Major barriers&#8217; are broken when pig kidneys implanted in a brain-dead man produce urine for 74 hours.</a> </h4>
                           <div class="mg-blog-meta">
         <span class="mg-blog-date"><i class="fas fa-clock"></i>
-         <a href="https://dailytopic.online/2022/01/">
+         <a href="https://dailytopic.online/?m=202201">
          Jan 22, 2022</a></span>
-         <a class="auth" href="https://dailytopic.online/author/admin/"><i class="fas fa-user-circle"></i> 
+         <a class="auth" href="https://dailytopic.online/?author=1"><i class="fas fa-user-circle"></i> 
         Admin</a>
          
     </div>
@@ -1716,18 +1716,18 @@ Skip to content</a>
                          <!--col-md-3-->
                 <div class="col-md-3 col-sm-6 pulse animated">
                <div class="mg-blog-post-3 minh back-img" style="background-image: url('https://dailytopic.online/wp-content/uploads/2022/01/AAT0DzJ.png');">
-                            <a class="link-div" href="https://dailytopic.online/2022/01/22/mysterious-sand-sculptures-have-appeared-near-a-lake-in-the-united-states-how-can-you-find-out/"></a>
+                            <a class="link-div" href="https://dailytopic.online/?p=273"></a>
                     <div class="mg-blog-inner">
                       <div class="mg-blog-category">
-                      <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/world/" alt="View all posts in World"> 
+                      <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=10" alt="View all posts in World"> 
                                  World
                              </a>                      </div>
-                      <h4 class="title"> <a href="https://dailytopic.online/2022/01/22/mysterious-sand-sculptures-have-appeared-near-a-lake-in-the-united-states-how-can-you-find-out/" title="Permalink to: Mysterious sand sculptures have appeared near a lake in the United States. How can you find out?"> Mysterious sand sculptures have appeared near a lake in the United States. How can you find out?</a> </h4>
+                      <h4 class="title"> <a href="https://dailytopic.online/?p=273" title="Permalink to: Mysterious sand sculptures have appeared near a lake in the United States. How can you find out?"> Mysterious sand sculptures have appeared near a lake in the United States. How can you find out?</a> </h4>
                           <div class="mg-blog-meta">
         <span class="mg-blog-date"><i class="fas fa-clock"></i>
-         <a href="https://dailytopic.online/2022/01/">
+         <a href="https://dailytopic.online/?m=202201">
          Jan 22, 2022</a></span>
-         <a class="auth" href="https://dailytopic.online/author/admin/"><i class="fas fa-user-circle"></i> 
+         <a class="auth" href="https://dailytopic.online/?author=1"><i class="fas fa-user-circle"></i> 
         Admin</a>
          
     </div>
@@ -1738,18 +1738,18 @@ Skip to content</a>
                          <!--col-md-3-->
                 <div class="col-md-3 col-sm-6 pulse animated">
                <div class="mg-blog-post-3 minh back-img" style="background-image: url('https://dailytopic.online/wp-content/uploads/2022/01/AAT0Ceg.png');">
-                            <a class="link-div" href="https://dailytopic.online/2022/01/22/reliance-jio-is-making-the-most-money-from-its-subscribers-than-it-has-ever-made/"></a>
+                            <a class="link-div" href="https://dailytopic.online/?p=272"></a>
                     <div class="mg-blog-inner">
                       <div class="mg-blog-category">
-                      <a class="newsup-categories category-color-1" href="https://dailytopic.online/category/tech/" alt="View all posts in Tech"> 
+                      <a class="newsup-categories category-color-1" href="https://dailytopic.online/?cat=8" alt="View all posts in Tech"> 
                                  Tech
                              </a>                      </div>
-                      <h4 class="title"> <a href="https://dailytopic.online/2022/01/22/reliance-jio-is-making-the-most-money-from-its-subscribers-than-it-has-ever-made/" title="Permalink to: Reliance Jio is making the most money from its subscribers than it has ever made."> Reliance Jio is making the most money from its subscribers than it has ever made.</a> </h4>
+                      <h4 class="title"> <a href="https://dailytopic.online/?p=272" title="Permalink to: Reliance Jio is making the most money from its subscribers than it has ever made."> Reliance Jio is making the most money from its subscribers than it has ever made.</a> </h4>
                           <div class="mg-blog-meta">
         <span class="mg-blog-date"><i class="fas fa-clock"></i>
-         <a href="https://dailytopic.online/2022/01/">
+         <a href="https://dailytopic.online/?m=202201">
          Jan 22, 2022</a></span>
-         <a class="auth" href="https://dailytopic.online/author/admin/"><i class="fas fa-user-circle"></i> 
+         <a class="auth" href="https://dailytopic.online/?author=1"><i class="fas fa-user-circle"></i> 
         Admin</a>
          
     </div>
@@ -1773,25 +1773,25 @@ Skip to content</a>
 <h6>Categories</h6>
 			<ul>
 					<li class="cat-item cat-item-20">
-<a href="https://dailytopic.online/category/entertainment/">Entertainment</a>
+<a href="https://dailytopic.online/?cat=20">Entertainment</a>
 </li>
 	<li class="cat-item cat-item-21">
-<a href="https://dailytopic.online/category/health/">HEALTH</a>
+<a href="https://dailytopic.online/?cat=21">HEALTH</a>
 </li>
 	<li class="cat-item cat-item-6">
-<a href="https://dailytopic.online/category/science/">Science</a>
+<a href="https://dailytopic.online/?cat=6">Science</a>
 </li>
 	<li class="cat-item cat-item-7">
-<a href="https://dailytopic.online/category/sports/">Sports</a>
+<a href="https://dailytopic.online/?cat=7">Sports</a>
 </li>
 	<li class="cat-item cat-item-8">
-<a href="https://dailytopic.online/category/tech/">Tech</a>
+<a href="https://dailytopic.online/?cat=8">Tech</a>
 </li>
 	<li class="cat-item cat-item-1">
-<a href="https://dailytopic.online/category/uncategorized/">Uncategorized</a>
+<a href="https://dailytopic.online/?cat=1">Uncategorized</a>
 </li>
 	<li class="cat-item cat-item-10">
-<a href="https://dailytopic.online/category/world/">World</a>
+<a href="https://dailytopic.online/?cat=10">World</a>
 </li>
 			</ul>
 
@@ -1800,34 +1800,34 @@ Skip to content</a>
 		<h6>Recent</h6>
 		<ul>
 											<li>
-					<a href="https://dailytopic.online/2022/01/22/this-is-how-the-abu-dhabi-dubai-etihad-rails-train-will-appear-2/">This is how the Abu Dhabi-Dubai Etihad Rails train will appear.</a>
+					<a href="https://dailytopic.online/?p=300">This is how the Abu Dhabi-Dubai Etihad Rails train will appear.</a>
 									</li>
 											<li>
-					<a href="https://dailytopic.online/2022/01/22/major-barriers-are-broken-when-pig-kidneys-implanted-in-a-brain-dead-man-produce-urine-for-74-hours/">&#8216;Major barriers&#8217; are broken when pig kidneys implanted in a brain-dead man produce urine for 74 hours.</a>
+					<a href="https://dailytopic.online/?p=274">&#8216;Major barriers&#8217; are broken when pig kidneys implanted in a brain-dead man produce urine for 74 hours.</a>
 									</li>
 											<li>
-					<a href="https://dailytopic.online/2022/01/22/mysterious-sand-sculptures-have-appeared-near-a-lake-in-the-united-states-how-can-you-find-out/">Mysterious sand sculptures have appeared near a lake in the United States. How can you find out?</a>
+					<a href="https://dailytopic.online/?p=273">Mysterious sand sculptures have appeared near a lake in the United States. How can you find out?</a>
 									</li>
 											<li>
-					<a href="https://dailytopic.online/2022/01/22/reliance-jio-is-making-the-most-money-from-its-subscribers-than-it-has-ever-made/">Reliance Jio is making the most money from its subscribers than it has ever made.</a>
+					<a href="https://dailytopic.online/?p=272">Reliance Jio is making the most money from its subscribers than it has ever made.</a>
 									</li>
 											<li>
-					<a href="https://dailytopic.online/2022/01/22/watch-a-comedy-of-errors-ensues-between-rahul-and-pant-before-keshav-maharaj-blows-a-run-out-opportunity/">WATCH: A comedy of errors ensues between Rahul and Pant before Keshav Maharaj blows a run-out opportunity.</a>
+					<a href="https://dailytopic.online/?p=275">WATCH: A comedy of errors ensues between Rahul and Pant before Keshav Maharaj blows a run-out opportunity.</a>
 									</li>
 											<li>
-					<a href="https://dailytopic.online/2022/01/22/in-a-yellow-statement-lehenga-shehnaaz-gill-blooms-like-a-beautiful-sunflower-pictures/">In a yellow statement lehenga, Shehnaaz Gill blooms like a beautiful sunflower. PICTURES</a>
+					<a href="https://dailytopic.online/?p=276">In a yellow statement lehenga, Shehnaaz Gill blooms like a beautiful sunflower. PICTURES</a>
 									</li>
 											<li>
-					<a href="https://dailytopic.online/2022/01/22/ananya-panday-lights-up-the-internet-in-a-bralette-and-leather-pants/">Ananya Panday Lights Up the Internet in a Bralette and Leather Pants</a>
+					<a href="https://dailytopic.online/?p=277">Ananya Panday Lights Up the Internet in a Bralette and Leather Pants</a>
 									</li>
 											<li>
-					<a href="https://dailytopic.online/2022/01/22/the-mirror-deployment-process-for-the-james-webb-space-telescope-is-complete/">The Mirror Deployment Process for the James Webb Space Telescope is Complete.</a>
+					<a href="https://dailytopic.online/?p=278">The Mirror Deployment Process for the James Webb Space Telescope is Complete.</a>
 									</li>
 											<li>
-					<a href="https://dailytopic.online/2022/01/21/maharashtra-reports-48270-new-covid-19-cases-with-52-deaths/">Maharashtra reports 48270 new Covid-19 cases, with 52 deaths.</a>
+					<a href="https://dailytopic.online/?p=227">Maharashtra reports 48270 new Covid-19 cases, with 52 deaths.</a>
 									</li>
 											<li>
-					<a href="https://dailytopic.online/2022/01/21/samsung-teases-unpacked-2022-event-in-february-what-to-expect/">Samsung teases Unpacked 2022 event in February: What to Expect</a>
+					<a href="https://dailytopic.online/?p=226">Samsung teases Unpacked 2022 event in February: What to Expect</a>
 									</li>
 					</ul>
 
@@ -1870,8 +1870,8 @@ Skip to content</a>
                             <div class="col-md-6 text-right text-xs">
                                 <ul class="info-right">
 <li class="nav-item menu-item active"><a class="nav-link " href="https://dailytopic.online/" title="Home">Home</a></li>
-<li class="nav-item menu-item page_item dropdown page-item-70"><a class="nav-link" href="https://dailytopic.online/contact/">Contact</a></li>
-<li class="nav-item menu-item page_item dropdown page-item-2"><a class="nav-link" href="https://dailytopic.online/sample-page/">Sample Page</a></li>
+<li class="nav-item menu-item page_item dropdown page-item-70"><a class="nav-link" href="https://dailytopic.online/?page_id=70">Contact</a></li>
+<li class="nav-item menu-item page_item dropdown page-item-2"><a class="nav-link" href="https://dailytopic.online/?page_id=2">Sample Page</a></li>
 </ul>
                             </div>
                         </div>

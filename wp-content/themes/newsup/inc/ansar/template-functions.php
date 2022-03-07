@@ -186,10 +186,12 @@ function newsup_get_freatured_image_url($post_id, $size = 'newsup-featured')
 {
     if (has_post_thumbnail($post_id)) {
         $thumb = wp_get_attachment_image_src(get_post_thumbnail_id($post_id), $size);
-        $url = $thumb['0'];
+        $url = $thumb !== false ? '' . $thumb[0] . '' : '""';
+
     } else {
         $url = '';
     }
+
 
     return $url;
 }

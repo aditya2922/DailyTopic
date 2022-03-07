@@ -318,6 +318,27 @@ $wp_customize->add_control(
     )
 );
 
+// Setting - Slider section left or right settings
+$wp_customize->add_setting('newsup_select_slider_setting',
+    array(
+        'default' => $default['newsup_select_slider_setting'],
+        'capability' => 'edit_theme_options',
+        'sanitize_callback' => 'newsup_sanitize_select',
+    )
+);
+
+$wp_customize->add_control('newsup_select_slider_setting',
+    array(
+        'label' => esc_html__('Select Slider Carousel Position', 'newsup'),
+        'section' => 'frontpage_main_banner_section_settings',
+        'type' => 'select',
+        'choices' => array(
+            'left' => esc_html__("Left", 'newsup'),
+            'right' => esc_html__("Right", 'newsup'),
+
+        ),
+        'priority' => 60,
+    ));
 
 //section title
 $wp_customize->add_setting('main_slider_section_title',
@@ -338,6 +359,8 @@ $wp_customize->add_control(
         )
     )
 );
+
+
 // Setting - drop down category for slider.
 $wp_customize->add_setting('select_slider_news_category',
     array(
@@ -358,7 +381,6 @@ $wp_customize->add_control(new Newsup_Dropdown_Taxonomies_Control($wp_customize,
         'priority' => 80,
         'active_callback' => 'newsup_main_banner_section_status'
     )));
-
 
 
 //section title

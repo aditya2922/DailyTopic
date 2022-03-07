@@ -4,8 +4,8 @@ Theme URI: https://themeansar.com/free-themes/newsup/
 Author: Themeansar
 Author URI: https://themeansar.com
 Description: Newsup is a fast, clean, modern-looking Best Responsive News Magazine WordPress theme. The theme is fully widgetized, so users can manage the content by using easy to use widgets. Newsup is suitable for dynamic news, newspapers, magazine, publishers, blogs, editors, online and gaming magazines, newsportals,personal blogs, newspaper, publishing or review siteand any creative website. Newsup is SEO friendly, WPML,Gutenberg, translation and RTL ready. Live preview : https://demo.themeansar.com/newsup and documentation at https://docs.themeansar.com/docs/newsup/
-Version: 2.9.9.89
-Tested up to: 5.7
+Version: 2.9.9.99
+Tested up to: 5.9
 Requires PHP: 5.6
 Tags: one-column, two-columns ,right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets,  theme-options, threaded-comments, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, news
 License: GNU General Public License v3 or later
@@ -90,6 +90,14 @@ Text Domain: newsup
 	font-size: 14px;
 	padding-right: 10px;
 }
+
+.mg-nav-widget-area .site-branding-text .site-title {
+	margin-bottom: 15px;
+}
+.mg-nav-widget-area .header-ads {
+    display: flex;
+    justify-content: flex-end;
+} 
 /*---------------------------------------
 	1.2.Header Widget      
 -----------------------------------------*/
@@ -3011,4 +3019,122 @@ div.wpforms-container-full .wpforms-form button[type=submit]
 	border: 1px solid #ddd;
     font-size: 1em;
     padding: 5px 20px;
+}
+
+/*Header Navigation */
+.m-header button[aria-expanded="false"] .fa-bars:before{
+    content: "\f0c9";
+}
+.m-header button[aria-expanded="true"] .fa-bars:before{
+    content: "\f00d";
+}
+
+/* Footer Copyright */
+footer .mg-footer-copyright  .text-xs {
+    margin: auto 0;
+}
+footer .mg-footer-copyright p, footer .mg-footer-copyright a {
+font-size: 13px;
+line-height: 18px;
+margin-bottom: 0;
+
+}
+footer .mg-footer-copyright .nav-link {
+padding: 0.5rem;
+}
+
+input:not([type]), input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"], input[type="search"], textarea {
+    margin-bottom: 15px;
+}
+
+@media (min-width: 508px) and (max-width: 991px){
+	blockquote::before {
+		width: 10%;
+	}
+	blockquote p {
+		width: 90%;
+	}
+	.mg-nav-widget-area .site-title a{
+		font-size: 31px;
+	}
+}
+@media screen and (max-width: 767px) and (min-width: 240px) {
+ blockquote::before {
+		margin: 6px 0;
+	}
+	.mg-blog-post.lg {
+		height: 395spx;
+	}
+}
+@media screen and (max-width:991.98px ) and (min-width:767px){
+    .wp-block-search__inside-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .pulse.animated .mg-blog-meta .mg-blog-date {
+        font-size: 11px;
+        margin-right: 10px;
+    }
+    .pulse.animated .mg-blog-meta a {
+        font-size: 11px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width:767px){
+	.mg-blog-post-3.minh {
+		margin-bottom: 30px;
+	}
+}
+@media screen and (max-width: 576px){
+	.mg-blog-post-3.minh {
+		margin-bottom: 20px;
+	}
+}
+@media (max-width: 991.98px) {
+	.mg-fea-area .pd-r-10 {
+		padding-right: 0px;
+	}
+}
+
+@media (min-width: 508px) and (max-width: 991px){
+	.mg-nav-widget-area .site-branding-text .site-title a {
+		font-size: 30px;
+	}
+}
+@media only screen and (max-width: 640px){
+	.mg-nav-widget-area .site-branding-text .site-title a {
+		font-size: 30px;
+	}
+}
+@media screen and (max-width: 767px) and (min-width: 240px) {
+	.mg-fea-area .mg-blog-post.lg {
+		margin-bottom: 20px;
+	}
+	.mg-posts-sec {
+		margin-bottom: 5px;
+	}
+	.mg-sidebar .mg-widget {
+		margin-bottom: 20px;
+		
+	}
+}
+@media screen and (max-width:991.98px ) and (min-width:767px){
+	.mg-fea-area .mg-blog-post.lg {
+		margin-bottom: 30px;
+	}
+    .wp-block-search__button {
+        margin-left: 0 
+    } 
+}
+@media (max-width: 991.98px) {
+	.mg-fea-area .mr-bot60 {
+		margin-bottom: 30px;
+	}
+}
+@media screen and (max-width: 576px){
+	.mg-nav-widget-area .header-ads {
+		padding-top: 10px;
+	}
 }

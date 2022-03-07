@@ -27,7 +27,7 @@ get_header(); ?>
   <div id="content" class="container-fluid home">
     <!--row-->
       <!--container-->
-      <div class="col-md-12 text-center mg-section"> 
+      <div class="col-md-12 text-center mg-section-404"> 
         <!--mg-error-404-->
         <div class="mg-error-404">
           <h1><?php esc_html_e('4','newsup'); ?><i class="fas fa-ban"></i>4</h1>

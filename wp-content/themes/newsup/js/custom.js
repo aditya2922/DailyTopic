@@ -17,7 +17,7 @@ function homefeatured() {
       pagination: false,
     items : 3,
     itemsDesktop : [1199,1],
-    itemsDesktopSmall : [979,1],
+    itemsDesktopSmall : [979,2],
     navigation : false,
     navigationText: [
             "<i class='fa fa-angle-left'></i>",
@@ -62,7 +62,7 @@ function colmnthree() {
   jQuery(".colmnthree").owlCarousel({
      autoPlay: 3000, //Set AutoPlay to 3 seconds
     items : 3,
-    itemsDesktop : [1199,1],
+    itemsDesktop : [1199,3],
     itemsDesktopSmall : [979,2],
     pagination : false,
     navigation : true,

@@ -135,6 +135,7 @@ if (!function_exists('newsup_banner_tabbed_posts')):
 
                 </div>
             </div>
+        </div> 
         <?php
 
     }
@@ -302,12 +303,26 @@ if (!function_exists('newsup_front_page_banner_section')) :
             <div class="overlay">
                 <div class="container-fluid">
                     <div class="row">
+                        <?php $newsup_select_slider_setting = get_theme_mod('newsup_select_slider_setting','left'); 
+                            if($newsup_select_slider_setting == 'left')
+                            {
+                        ?>
                         <div class="col-md-8">
                             <div id="homemain"class="homemain owl-carousel mr-bot60 pd-r-10"> 
                                 <?php newsup_get_block('list', 'banner'); ?>
                             </div>
                         </div> 
                         <?php do_action('newsup_action_banner_tabbed_posts');?>
+                    <?php } elseif($newsup_select_slider_setting == 'right') { ?>
+
+                        <?php do_action('newsup_action_banner_tabbed_posts');?>
+
+                        <div class="col-md-8">
+                            <div id="homemain"class="homemain owl-carousel mr-bot60 pd-r-10"> 
+                                <?php newsup_get_block('list', 'banner'); ?>
+                            </div>
+                        </div>
+                    <?php } ?>
                     </div>
                 </div>
             </div>

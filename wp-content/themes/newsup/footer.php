@@ -105,41 +105,40 @@ $you_missed_enable = esc_attr(get_theme_mod('you_missed_enable','true'));
                               $newsup_footer_pinterest_target = esc_attr(get_theme_mod('newsup_footer_pinterest_target','true'));
                               $newsup_footer_telegram_link = get_theme_mod('newsup_footer_tele_link');
                               $newsup_footer_telegram_target = esc_attr(get_theme_mod('newsup_footer_tele_target','true'));
-
-
-
                               ?>
 
                             <div class="col-md-6 text-right text-xs">
                                 
                             <ul class="mg-social">
-                                    <?php if($newsup_footer_fb_link !=''){?>
-                                    <a <?php if($newsup_footer_fb_target) { ?> target="_blank" <?php } ?>href="<?php echo esc_url($newsup_footer_fb_link); ?>"><li><span class="icon-soci facebook"><i class="fab fa-facebook"></i></span> </li>
-                                    </a>
+                                    <?php if($newsup_footer_fb_link !=''){ ?>
+                                   <li> <a href="<?php echo esc_url($newsup_footer_fb_link); ?>" <?php if($newsup_footer_fb_target) { ?> target="_blank" <?php } ?>><span class="icon-soci facebook"><i class="fab fa-facebook"></i></span> 
+                                    </a></li>
                                     <?php } ?>
-                                    <a <?php if($newsup_footer_twt_target) { ?>target="_blank" <?php } ?>href="<?php echo esc_url($newsup_footer_twt_link);?>">
+
                                     <?php if($newsup_footer_twt_link !=''){ ?>
-                                    <li><span class="icon-soci twitter"><i class="fab fa-twitter"></i></span></li></a>
+                                    <li><a <?php if($newsup_footer_twt_target) { ?>target="_blank" <?php } ?>href="<?php echo esc_url($newsup_footer_twt_link);?>">
+                                    <span class="icon-soci twitter"><i class="fab fa-twitter"></i></span></a></li>
                                     <?php } ?>
-                                    <a <?php if($newsup_footer_lnkd_target) { ?>target="_blank" <?php } ?> href="<?php echo esc_url($newsup_footer_lnkd_link); ?>">
                                     <?php if($newsup_footer_lnkd_link !=''){ ?>
-                                    <li><span class="icon-soci linkedin"><i class="fab fa-linkedin"></i></span></li></a>
-                                    <?php } ?> <?php if($newsup_footer_insta_link !=''){ ?>
-                                    <a <?php if($newsup_footer_insta_target) { ?>target="_blank" <?php } ?> href="<?php echo esc_url($newsup_footer_insta_link); ?>"><li><span class="icon-soci instagram"><i class="fab fa-instagram"></i></span>
-                                    </li></a>
+                                    <li><a <?php if($newsup_footer_lnkd_target) { ?>target="_blank" <?php } ?> href="<?php echo esc_url($newsup_footer_lnkd_link); ?>">
+                                    <span class="icon-soci linkedin"><i class="fab fa-linkedin"></i></span></a></li>
+                                    <?php } ?> 
+                                    <?php if($newsup_footer_insta_link !=''){ ?>
+                                    <li><a <?php if($newsup_footer_insta_target) { ?>target="_blank" <?php } ?> href="<?php echo esc_url($newsup_footer_insta_link); ?>"><span class="icon-soci instagram"><i class="fab fa-instagram"></i></span>
+                                    </a></li>
                                     <?php } ?>
                                     <?php if($newsup_footer_youtube_link !=''){ ?>
-                                    <a <?php if($newsup_footer_youtube_target) { ?>target="_blank" <?php } ?> href="<?php echo esc_url($newsup_footer_youtube_link); ?>">
-                                    <li><span class="icon-soci youtube"><i class="fab fa-youtube"></i></span></li></a>
+                                    <li><a <?php if($newsup_footer_youtube_target) { ?>target="_blank" <?php } ?> href="<?php echo esc_url($newsup_footer_youtube_link); ?>">
+                                    <span class="icon-soci youtube"><i class="fab fa-youtube"></i></span></a></li>
                                     <?php } ?><?php 
                                     if($newsup_footer_pinterest_link !=''){ ?>
-                                    <a <?php if($newsup_footer_pinterest_target) { ?>target="_blank" <?php } ?> href="<?php echo esc_url($newsup_footer_pinterest_link); ?>">
-                                    <li><span class="icon-soci pinterest"><i class="fab fa-pinterest-p"></i></span></li></a>
+                                    <li><a <?php if($newsup_footer_pinterest_target) { ?>target="_blank" <?php } ?> href="<?php echo esc_url($newsup_footer_pinterest_link); ?>">
+                                    <span class="icon-soci pinterest"><i class="fab fa-pinterest-p"></i></span></a></li>
                                     <?php } ?>
 
                                     <?php if($newsup_footer_telegram_link !=''){ ?>
-                                    <a <?php if($newsup_footer_telegram_target) { ?>target="_blank" <?php } ?> href="<?php echo esc_url($newsup_footer_telegram_link); ?>">
-                                    <li><span class="icon-soci telegram"><i class="fab fa-telegram"></i></span></li></a>
+                                    <li><a <?php if($newsup_footer_telegram_target) { ?>target="_blank" <?php } ?> href="<?php echo esc_url($newsup_footer_telegram_link); ?>">
+                                    <span class="icon-soci telegram"><i class="fab fa-telegram"></i></span></a></li>
                                     <?php } ?>
                              </ul>
 
@@ -193,6 +192,8 @@ $you_missed_enable = esc_attr(get_theme_mod('you_missed_enable','true'));
         </footer>
         <!--/footer-->
     </div>
+  </div>
+</div>
     <!--/wrapper-->
     <!--Scroll To Top-->
     <a href="#" class="ta_upscr bounceInup animated"><i class="fas fa-angle-up"></i></a>

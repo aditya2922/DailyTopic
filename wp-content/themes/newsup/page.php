@@ -24,14 +24,11 @@ get_header();
 			<?php the_content(); endwhile; } } else {?>
 			<div class="col-md-8">
 				<div class="mg-card-box padding-20">
-			<?php if( have_posts()) :  the_post(); ?>		
-			<?php the_content(); ?>
-			<?php endif; 
-				while ( have_posts() ) : the_post();
-				// Include the page
-				the_content();
+			<?php while ( have_posts() ) : the_post(); 
+            	  the_post_thumbnail( '', array( 'class'=>'img-responsive' ) );
+				  the_content();
 				
-				wp_link_pages(array(
+				  wp_link_pages(array(
         'before' => '<div class="link btn-theme">' . esc_html__('Pages:', 'newsup'),
         'after' => '</div>',
     ));

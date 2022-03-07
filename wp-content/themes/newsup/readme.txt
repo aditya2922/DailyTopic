@@ -2,9 +2,9 @@
 Contributors: Themeansar
 Author: Themeansar
 Requires at least: WordPress 4.7
-Tested up to: 5.7
+Tested up to: 5.9
 Requires PHP: 5.6
-Stable tag: 2.9.9.89
+Stable tag: 2.9.9.99
 Version: 3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -474,3 +474,34 @@ License: CC0 Public Domain
 
 = Version 2.9.9.89
 * Added Webfonts for Font Awesome.
+
+= Version 2.9.9.90
+* Fixed Tabbed Widget Issue.
+
+= Version 2.9.9.91
+* Added Featured image support on page.
+
+= Version 2.9.9.92
+* Fixed Footer menu and boolen php issue.
+
+= Version 2.9.9.93
+* Fixed menu issue.
+
+= Version 2.9.9.94
+* Fixed styling issue.
+
+= Version 2.9.9.95
+* Fixed styling issue.
+
+= Version 2.9.9.96
+* Fixed styling responsive issue.
+
+= Version 2.9.9.97
+* Fixed unclosed div issue.
+
+= Version 2.9.9.98
+* Added Child theme & Fixed responsive issues.
+
+= Version 2.9.9.99
+* Added slider position setting.
+* Fixed Responsive js issue.

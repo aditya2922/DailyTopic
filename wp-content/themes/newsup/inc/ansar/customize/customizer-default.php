@@ -42,6 +42,7 @@ function newsup_get_default_theme_options() {
     $defaults['select_vertical_slider_news_category'] = 0;
     $defaults['vertical_slider_number_of_slides'] = 5;
     $defaults['select_slider_news_category'] = 0;
+    $defaults['newsup_select_slider_setting'] = 'left';
     $defaults['select_tabbed_thumbs_section_mode'] = 'tabbed';
     $defaults['select_tab_section_mode'] = 'default';
     $defaults['latest_tab_title'] = __("Latest", 'newsup');

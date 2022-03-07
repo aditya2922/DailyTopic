@@ -59,20 +59,20 @@ if (!class_exists('Newsup_Tab_Posts')) :
             // open the widget container
             echo $args['before_widget'];
             ?>
-            <div class="tabbed-container">
+            <div class="tabbed-container top-right-area">
                 <div class="tabbed-head">
                     <ul class="nav nav-tabs ta-tabs tab-warpper" role="tablist">
-                        <li class="tab tab-recent active">
+                        <li class="tab tab-recent new-item active">
                             <a href="#<?php echo esc_attr($tab_id); ?>-recent"
                                aria-controls="<?php esc_attr_e('Recent', 'newsup'); ?>" role="tab"
-                               data-toggle="tab" class="font-family-1">
+                               data-toggle="tab" class="font-family-1 nav-link">
                                 <i class="fas fa-bolt" aria-hidden="true"></i>  <?php echo esc_html($latest_title); ?>
                             </a>
                         </li>
-                        <li role="presentation" class="tab tab-popular">
+                        <li role="presentation" class="tab tab-popular nav-item">
                             <a href="#<?php echo esc_attr($tab_id); ?>-popular"
                                aria-controls="<?php esc_attr_e('Popular', 'newsup'); ?>" role="tab"
-                               data-toggle="tab" class="font-family-1">
+                               data-toggle="tab" class="font-family-1 nav-link">
                                 <i class="fas fa-clock" aria-hidden="true"></i>  <?php echo esc_html($popular_title); ?>
                             </a>
                         </li>
